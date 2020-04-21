@@ -1,0 +1,31 @@
+lg rm - 1024 each
+	= height - 256
+grey box all rooms first. Don't make doors. Don't make stairs/slopes.
+JUst greybox the size, shape and height
+
+sm rm - 608
+z - 224
+
+med rm ~ 672
+z ~ 256
+
+
+Paths:
+Sm - 5
+Me - 6
+Lg - 7/8
+
+Should I stick to a rule of the paths leading to the main areas shoudl be larger than the paths leading to minor points?
+	- At this point (3/11) worried this rule would make things too simple. Might be itneresting having large paths w/ other ones that are chokepoints
+
+also update 2d map, manifesto and journal with David's comments
+
+not really about specific lg and small areas. Doesn't have to be exact ie sm map isn't just 608 units
+
+it's really not about being complex. It's about making sense, but still giving little suprises.
+
+Don't focus too many on "this path should be small, lrg, etc." during initial planning. Have a number of each you'd like to use, figure out the best
+Place to use them during production
+
+make it easy to rocket jump out
+focal point with two paths two narrow?

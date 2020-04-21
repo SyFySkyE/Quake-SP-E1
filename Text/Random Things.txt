@@ -1,0 +1,9 @@
+Console Commands: 
+Turn lightts off: r_fullbright 1 
+Turn lightts on: r_fullbright 0 
+When greyboxing, keep simple but consistent textures. Orange for walls, grey for floors, etc.)
+Multiplayer spawn points: info_player_deathmatch
+When making compiles, make sure to check pause on 3 boxes in compiling gui to check for leaks refer o dump trucks's troubleshiiting vid
+If items are dissappearing or having any other weird error, try entering "+developer 1" as a command line argument in compiling gui
+	Compile and run, look for an "Item fell out" above the bronze FitzQuake line.
+If you want to look up something or ask a community, visit Func_msgboard

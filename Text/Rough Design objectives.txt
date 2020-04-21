@@ -1,0 +1,22 @@
+- Use gimmicks such as side strafing, rocket jumping, electro in water.
+- Should be hard to get special powerups, easy to get others.
+- Spawns should be facing open areas, clear to where to go next. Maybe weapons close to spawn.
+- Make bubble chart! Areas should be somewhat modular.
+- Don't forget that teleports count as an entry/exit.
+- Asymmetry is important, except when it makes sense to use symmetry.
+- Contrast is extremely important.
+	- Mix of small, claustrophobic areas and large open areas.
+		- Say several small areas and one or two large ones?
+	- Cieling height.
+	- Environments. (Indoor, outdoor, can see outddor)
+- Maybe play with areas of narrow staircases with no gaurd on side, can be shot at.
+- Maybe play with area of small, narrow lines to cross over for a powerup (can jump for a shortcut), open to everyone else to be shot at.
+- Maybe a maze area, fall into combat?
+- I want to hjave most, if not all weapons.
+	- 6 weapons
+- Same with powerups
+	- 10 (I'd settle with osmething like 6 or 7)
+- Overhangs, verticaility. (no mroe than 3 levels at a time)
+- When going down routes, player shuld see sliver of what focal point they're going to
+- Figure eights, circles/oval flows running into each other.
+- 7 or 8 focal points. 1 or 2 major ones.
