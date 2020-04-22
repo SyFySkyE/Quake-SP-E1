@@ -1,3 +1,3 @@
-# Quake-SP-E1
+# Quake-SP-Castle Siege
  
-Welcome to E1! A new singleplayer map for Quake 1. For more info, vist the [E1 project wiki](https://github.com/SyFySkyE/Quake-SP-E1/wiki)!
+Welcome to the Castle Siege, a new singleplayer map for Quake 1. For more info, such as a project manifesto and process journal, vist the [E1 project wiki](https://github.com/SyFySkyE/Quake-SP-E1/wiki)!
