@@ -4,82 +4,62 @@ Output file: EpisodeOne.bsp
 
 ---- LoadMapFile ----
 *** WARNING 06: No info_player_deathmatch entities in level
-         4217 faces
-          674 brushes
-           49 entities
-           27 unique texnames
-           90 texinfo
+         4751 faces
+          763 brushes
+           57 entities
+           28 unique texnames
+           97 texinfo
 
 Opened WAD: ../wads/prototype_1_2.wad
 Opened WAD: ../wads/START.WAD
 Processing hull 0...
 ---- Brush_LoadEntity ----
-          521 brushes
-          909 planes
+          608 brushes
+          997 planes
 ---- CSGFaces ----
-         3299 brushfaces
-         2889 csgfaces
-         2230 mergedfaces
+         3817 brushfaces
+         3294 csgfaces
+         2509 mergedfaces
 ---- SolidBSP ----
-         2984 split nodes
-         1080 solid leafs
-         1801 empty leafs
+         3325 split nodes
+         1235 solid leafs
+         1987 empty leafs
           104 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         6138 leaffaces
-         5469 nodefaces
+         6705 leaffaces
+         6031 nodefaces
 ---- Portalize ----
-         1905 vis leafs
-         1905 vis clusters
-         5656 vis portals
+         2091 vis leafs
+         2091 vis clusters
+         6141 vis portals
 ---- FillOutside ----
-         1201 outleafs
----- MergeAll ----
-         1374 mergefaces
----- SolidBSP ----
-          966 split nodes
-          535 solid leafs
-          380 empty leafs
-           52 water leafs
-            0 detail leafs
-            0 detail illusionary leafs
-            0 detail fence leafs
-            0 illusionary visblocker leafs
-         2608 leaffaces
-         2065 nodefaces
----- Portalize ----
-          432 vis leafs
-          432 vis clusters
-         1147 vis portals
----- Tjunc ----
-         1905 world edges
-         6751 edge points
-         1680 edges added by tjunctions
-            0 faces added by tjunctions
+*** WARNING 10: Reached occupant at (2096 280 712), no filling performed.
+Leak file written to EpisodeOne.pts
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
 Processing hull 1...
+*** WARNING 10: Reached occupant at (2096 280 712), no filling performed.
 Processing hull 2...
 *** WARNING 16: Texture __TB_empty not found
 ---- WriteBSPFile ----
 Wrote EpisodeOne.bsp
-          854 planes            17080
-         2637 vertexes          31644
-         1128 nodes             27072
-           62 texinfo            2480
-         2106 faces             42120
-         1660 clipnodes         13280
-          595 leafs             16660
-         2649 marksurfaces       5298
-         9818 surfedges         39272
-         4968 edges             19872
-           33 textures         430616
+         1336 planes            26720
+         6955 vertexes          83460
+         3503 nodes             84072
+           78 texinfo            3120
+         6074 faces            121480
+         4013 clipnodes         32104
+         2270 leafs             63560
+         6748 marksurfaces      13496
+        23760 surfedges         95040
+        15398 edges             61592
+           34 textures         452420
               lightdata             0
               visdata               0
-              entdata            3574
+              entdata            4115
 
-0.632 seconds elapsed
-Peak memory usage: 23927622 (22.8M)
+0.683 seconds elapsed
+Peak memory usage: 36400404 (34.7M)
