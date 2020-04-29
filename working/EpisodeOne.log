@@ -4,60 +4,60 @@ Output file: EpisodeOne.bsp
 
 ---- LoadMapFile ----
 *** WARNING 06: No info_player_deathmatch entities in level
-         2717 faces
-          425 brushes
-           11 entities
-           16 unique texnames
-           63 texinfo
+         4409 faces
+          706 brushes
+           53 entities
+           28 unique texnames
+           93 texinfo
 
 Opened WAD: ../wads/prototype_1_2.wad
 Opened WAD: ../wads/START.WAD
 Processing hull 0...
 ---- Brush_LoadEntity ----
-          299 brushes
-          802 planes
+          549 brushes
+          913 planes
 ---- CSGFaces ----
-         1961 brushfaces
-         1890 csgfaces
-         1500 mergedfaces
+         3467 brushfaces
+         2893 csgfaces
+         2229 mergedfaces
 ---- SolidBSP ----
-         1832 split nodes
-          641 solid leafs
-         1135 empty leafs
-           57 water leafs
+         3002 split nodes
+         1087 solid leafs
+         1811 empty leafs
+          105 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         3990 leaffaces
-         3460 nodefaces
+         6130 leaffaces
+         5460 nodefaces
 ---- Portalize ----
-         1192 vis leafs
-         1192 vis clusters
-         3664 vis portals
+         1916 vis leafs
+         1916 vis clusters
+         5685 vis portals
 ---- FillOutside ----
-          667 outleafs
+         1208 outleafs
 ---- MergeAll ----
-          840 mergefaces
+         1384 mergefaces
 ---- SolidBSP ----
-          639 split nodes
-          312 solid leafs
-          303 empty leafs
-           25 water leafs
+          965 split nodes
+          529 solid leafs
+          385 empty leafs
+           52 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         1745 leaffaces
-         1293 nodefaces
+         2621 leaffaces
+         2074 nodefaces
 ---- Portalize ----
-          328 vis leafs
-          328 vis clusters
-          964 vis portals
+          437 vis leafs
+          437 vis clusters
+         1168 vis portals
 ---- Tjunc ----
-         1389 world edges
-         4252 edge points
-         1068 edges added by tjunctions
+         1917 world edges
+         6787 edge points
+         1694 edges added by tjunctions
             0 faces added by tjunctions
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
@@ -66,20 +66,20 @@ Processing hull 2...
 *** WARNING 16: Texture __TB_empty not found
 ---- WriteBSPFile ----
 Wrote EpisodeOne.bsp
-          627 planes            12540
-         1548 vertexes          18576
-          639 nodes             15336
-           42 texinfo            1680
-         1293 faces             25860
-          618 clipnodes          4944
-          329 leafs              9212
-         1745 marksurfaces       3490
-         5968 surfedges         23872
-         2985 edges             11940
-           16 textures         283948
+          866 planes            17320
+         2667 vertexes          32004
+         1151 nodes             27624
+           66 texinfo            2640
+         2119 faces             42380
+         1744 clipnodes         13952
+          624 leafs             17472
+         2666 marksurfaces       5332
+         9884 surfedges         39536
+         5009 edges             20036
+           34 textures         431000
               lightdata             0
               visdata               0
-              entdata             849
+              entdata            3830
 
-0.486 seconds elapsed
-Peak memory usage: 15813514 (15.1M)
+0.646 seconds elapsed
+Peak memory usage: 24342244 (23.2M)
