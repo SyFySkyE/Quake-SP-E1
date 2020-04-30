@@ -4,62 +4,63 @@ Output file: EpisodeOne.bsp
 
 ---- LoadMapFile ----
 *** WARNING 06: No info_player_deathmatch entities in level
-         4751 faces
-          763 brushes
-           57 entities
-           28 unique texnames
-           97 texinfo
+         5074 faces
+          817 brushes
+           63 entities
+           32 unique texnames
+          108 texinfo
 
 Opened WAD: ../wads/prototype_1_2.wad
 Opened WAD: ../wads/START.WAD
 Processing hull 0...
 ---- Brush_LoadEntity ----
-          608 brushes
-          997 planes
+          649 brushes
+         1023 planes
 ---- CSGFaces ----
-         3817 brushfaces
-         3294 csgfaces
-         2509 mergedfaces
+         4062 brushfaces
+         3528 csgfaces
+         2715 mergedfaces
 ---- SolidBSP ----
-         3325 split nodes
-         1235 solid leafs
-         1987 empty leafs
-          104 water leafs
+         3441 split nodes
+         1265 solid leafs
+         2072 empty leafs
+          105 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         6705 leaffaces
-         6031 nodefaces
+         7035 leaffaces
+         6315 nodefaces
 ---- Portalize ----
-         2091 vis leafs
-         2091 vis clusters
-         6141 vis portals
+         2177 vis leafs
+         2177 vis clusters
+         6375 vis portals
 ---- FillOutside ----
-*** WARNING 10: Reached occupant at (2096 280 712), no filling performed.
+*** WARNING 10: Reached occupant at (-1820 881 616), no filling performed.
 Leak file written to EpisodeOne.pts
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
 Processing hull 1...
-*** WARNING 10: Reached occupant at (2096 280 712), no filling performed.
+*** WARNING 10: Reached occupant at (-1820 881 616), no filling performed.
 Processing hull 2...
+*** WARNING 10: Reached occupant at (-1820 881 616), no filling performed.
 *** WARNING 16: Texture __TB_empty not found
 ---- WriteBSPFile ----
 Wrote EpisodeOne.bsp
-         1336 planes            26720
-         6955 vertexes          83460
-         3503 nodes             84072
-           78 texinfo            3120
-         6074 faces            121480
-         4013 clipnodes         32104
-         2270 leafs             63560
-         6748 marksurfaces      13496
-        23760 surfedges         95040
-        15398 edges             61592
-           34 textures         452420
+         1674 planes            33480
+         7476 vertexes          89712
+         3675 nodes             88200
+           89 texinfo            3560
+         6468 faces            129360
+         6839 clipnodes         54712
+         2401 leafs             67228
+         7188 marksurfaces      14376
+        25344 surfedges        101376
+        16524 edges             66096
+           39 textures         468496
               lightdata             0
               visdata               0
-              entdata            4115
+              entdata            4691
 
-0.683 seconds elapsed
-Peak memory usage: 36400404 (34.7M)
+0.712 seconds elapsed
+Peak memory usage: 38742420 (36.9M)
