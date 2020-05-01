@@ -4,14 +4,17 @@ Raytracing backend: Embree
 running with 6 threads
 LoadBSPFile: 'EpisodeOne.bsp'
 BSP is version 29
+Loaded extended texinfo flags from EpisodeOne.texinfo
+WARNING: Extended texinfo flags in EpisodeOne.texinfo does not match bsp, ignoring
 --- LoadEntities ---
-62 entities read, 0 are lights.
+WARNING: entity at (256 1720 632) (trigger_relay) has empty key/value "message" ""
+221 entities read, 0 are lights.
 --- OptionsSummary ---
     "bounce" was set to "1" from commandline
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
-	380 sky faces
-	5853 solid faces
+	297 sky faces
+	6616 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
 SetupLights: 0 initial lights
@@ -30,7 +33,7 @@ Lighting Completed.
 lightdatasize: 0
 0 switchable light styles (32 max)
 Writing EpisodeOne.bsp as BSP version 29
-1.011 seconds elapsed
+1.727 seconds elapsed
 
 stats:
 0.000000 lights tested, 0.000000 hits per sample point
