@@ -7,13 +7,16 @@ BSP is version 29
 Loaded extended texinfo flags from EpisodeOne.texinfo
 WARNING: Extended texinfo flags in EpisodeOne.texinfo does not match bsp, ignoring
 --- LoadEntities ---
-326 entities read, 0 are lights.
+WARNING: entity at (-96 960 736) (info_teleport_destination) has targetname "MainHubTopWestSpawnOne" which is not targetted by anything.
+WARNING: entity at (496 312 736) (info_teleport_destination) has targetname "MainHubTopSouthSpawnOne" which is not targetted by anything.
+WARNING: entity at (928 944 736) (info_teleport_destination) has targetname "MainHubTopSpawnEastTwo" which is not targetted by anything.
+473 entities read, 0 are lights.
 --- OptionsSummary ---
     "bounce" was set to "1" from commandline
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
-	310 sky faces
-	6743 solid faces
+	412 sky faces
+	7457 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
 SetupLights: 0 initial lights
@@ -32,7 +35,7 @@ Lighting Completed.
 lightdatasize: 0
 0 switchable light styles (32 max)
 Writing EpisodeOne.bsp as BSP version 29
-1.748 seconds elapsed
+1.795 seconds elapsed
 
 stats:
 0.000000 lights tested, 0.000000 hits per sample point
