@@ -20122,6 +20122,42 @@
 ( -152 1120 912 ) ( -136 1120 920 ) ( -152 1120 920 ) 128_honey_3 0 0 0 1 1
 ( -136 1120 920 ) ( -136 928 912 ) ( -136 928 920 ) 128_honey_3 0 0 0 1 1
 }
+// brush 2172
+{
+( 968 896 880 ) ( 968 888 712 ) ( 968 896 712 ) 128_honey_3 0 0 0 1 1
+( 968 888 880 ) ( 1040 888 712 ) ( 968 888 712 ) 128_honey_3 0 0 0 1 1
+( 1040 896 712 ) ( 968 888 712 ) ( 1040 888 712 ) 128_honey_3 0 0 0 1 1
+( 968 896 952 ) ( 1040 888 952 ) ( 968 888 952 ) 128_honey_3 0 0 0 1 1
+( 968 896 880 ) ( 1040 896 712 ) ( 1040 896 880 ) 128_honey_3 0 0 0 1 1
+( 1040 888 880 ) ( 1040 896 712 ) ( 1040 888 712 ) 128_honey_3 0 0 0 1 1
+}
+// brush 2173
+{
+( 1032 1160 912 ) ( 1032 896 712 ) ( 1032 1160 712 ) 128_honey_3 0 0 0 1 1
+( 1032 896 912 ) ( 1040 896 712 ) ( 1032 896 712 ) 128_honey_3 0 0 0 1 1
+( 1040 1160 712 ) ( 1032 896 712 ) ( 1040 896 712 ) 128_honey_3 0 0 0 1 1
+( 1032 1160 952 ) ( 1040 896 952 ) ( 1032 896 952 ) 128_honey_3 0 0 0 1 1
+( 1032 1160 912 ) ( 1040 1160 712 ) ( 1040 1160 912 ) 128_honey_3 0 0 0 1 1
+( 1040 896 912 ) ( 1040 1160 712 ) ( 1040 896 712 ) 128_honey_3 0 0 0 1 1
+}
+// brush 2174
+{
+( 968 1160 952 ) ( 968 1152 712 ) ( 968 1160 712 ) 128_honey_3 0 0 0 1 1
+( 968 1152 952 ) ( 1032 1152 712 ) ( 968 1152 712 ) 128_honey_3 0 0 0 1 1
+( 1032 1160 712 ) ( 968 1152 712 ) ( 1032 1152 712 ) 128_honey_3 0 0 0 1 1
+( 968 1160 952 ) ( 1032 1152 952 ) ( 968 1152 952 ) 128_honey_3 0 0 0 1 1
+( 968 1160 952 ) ( 1032 1160 712 ) ( 1032 1160 952 ) 128_honey_3 0 0 0 1 1
+( 1032 1152 952 ) ( 1032 1160 712 ) ( 1032 1152 712 ) 128_honey_3 0 0 0 1 1
+}
+// brush 2175
+{
+( 968 1152 952 ) ( 968 896 944 ) ( 968 1152 944 ) 128_honey_3 0 0 0 1 1
+( 1032 896 952 ) ( 968 896 944 ) ( 968 896 952 ) 128_honey_3 0 0 0 1 1
+( 1032 896 944 ) ( 968 1152 944 ) ( 968 896 944 ) 128_honey_3 0 0 0 1 1
+( 1032 896 952 ) ( 968 1152 952 ) ( 1032 1152 952 ) 128_honey_3 0 0 0 1 1
+( 1032 1152 944 ) ( 968 1152 952 ) ( 968 1152 944 ) 128_honey_3 0 0 0 1 1
+( 1032 896 952 ) ( 1032 1152 944 ) ( 1032 896 944 ) 128_honey_3 0 0 0 1 1
+}
 }
 // entity 1
 {
@@ -20235,7 +20271,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Lava Trap"
-"_tb_id" "165"
+"_tb_id" "172"
 // brush 0
 {
 ( -1056 1016 80 ) ( -1056 896 88 ) ( -1056 896 80 ) *lavaskip 0 0 0 1 1
@@ -20250,7 +20286,7 @@
 {
 "classname" "trigger_teleport"
 "target" "tp1"
-"_tb_group" "165"
+"_tb_group" "172"
 // brush 0
 {
 ( -1056 1016 79 ) ( -1056 896 87 ) ( -1056 896 79 ) *lavaskip 0 0 0 1 1
@@ -23092,6 +23128,7 @@
 "count" "2"
 "targetname" "WaveOneCounter"
 "target" "WallRaise"
+"spawnflags" "1"
 }
 // entity 232
 {
@@ -24928,11 +24965,6 @@
 }
 // entity 393
 {
-"classname" "info_player_start"
-"origin" "456 488 536"
-}
-// entity 394
-{
 "classname" "trigger_relay"
 "origin" "320 1720 704"
 "targetname" "FinalWaveRelay"
@@ -24940,188 +24972,188 @@
 "target" "FinalWaveOne"
 "delay" "2"
 }
-// entity 395
+// entity 394
 {
 "classname" "monster_wizard"
 "origin" "1560 256 1232"
 "target" "FinalWaveOneCounter"
 }
-// entity 396
+// entity 395
 {
 "classname" "monster_wizard"
 "origin" "1560 304 1232"
 "target" "FinalWaveOneCounter"
 }
-// entity 397
+// entity 396
 {
 "classname" "monster_wizard"
 "origin" "1560 360 1232"
 "target" "FinalWaveOneCounter"
 }
-// entity 398
+// entity 397
 {
 "classname" "monster_army"
 "origin" "1560 464 1232"
 "target" "FinalWaveOneCounter"
 }
-// entity 399
+// entity 398
 {
 "classname" "monster_army"
 "origin" "1560 512 1232"
 "target" "FinalWaveOneCounter"
 }
-// entity 400
+// entity 399
 {
 "classname" "monster_army"
 "origin" "1560 568 1232"
 "target" "FinalWaveOneCounter"
 }
-// entity 401
+// entity 400
 {
 "classname" "monster_demon1"
 "origin" "1928 200 1232"
 "target" "FinalWaveTwoCounter"
 }
-// entity 402
+// entity 401
 {
 "classname" "monster_demon1"
 "origin" "1928 280 1232"
 "target" "FinalWaveTwoCounter"
 }
-// entity 403
+// entity 402
 {
 "classname" "monster_knight"
 "origin" "1928 456 1232"
 "target" "FinalWaveTwoCounter"
 }
-// entity 404
+// entity 403
 {
 "classname" "monster_knight"
 "origin" "1928 512 1232"
 "target" "FinalWaveTwoCounter"
 }
-// entity 405
+// entity 404
 {
 "classname" "monster_knight"
 "origin" "1928 568 1232"
 "target" "FinalWaveTwoCounter"
 }
-// entity 406
+// entity 405
 {
 "classname" "monster_wizard"
 "origin" "1568 936 1232"
 "target" "FinalWaveThreeCounter"
 }
-// entity 407
+// entity 406
 {
 "classname" "monster_wizard"
 "origin" "1624 936 1232"
 "target" "FinalWaveThreeCounter"
 }
-// entity 408
+// entity 407
 {
 "classname" "monster_wizard"
 "origin" "1672 936 1232"
 "target" "FinalWaveThreeCounter"
 }
-// entity 409
+// entity 408
 {
 "classname" "monster_enforcer"
 "origin" "1912 928 1232"
 "target" "FinalWaveThreeCounter"
 }
-// entity 410
+// entity 409
 {
 "classname" "monster_enforcer"
 "origin" "1952 928 1232"
 "target" "FinalWaveThreeCounter"
 }
-// entity 411
+// entity 410
 {
 "classname" "monster_demon1"
 "origin" "1592 848 1232"
 "target" "FinalWaveThreeCounter"
 }
-// entity 412
+// entity 411
 {
 "classname" "monster_demon1"
 "origin" "1672 848 1232"
 "target" "FinalWaveThreeCounter"
 }
-// entity 413
+// entity 412
 {
 "classname" "monster_hell_knight"
 "origin" "1760 840 1232"
 "target" "FinalWaveThreeCounter"
 }
-// entity 414
+// entity 413
 {
 "classname" "info_teleport_destination"
 "origin" "-96 960 736"
 "targetname" "MainHubTopWestSpawnOne"
 }
-// entity 415
+// entity 414
 {
 "classname" "info_teleport_destination"
 "origin" "-96 1112 736"
 "targetname" "MainHubTopWestSpawnTwo"
 }
-// entity 416
+// entity 415
 {
 "classname" "info_teleport_destination"
 "origin" "832 1560 536"
 "targetname" "MainHubBottomSpawnNE"
 "angle" "270"
 }
-// entity 417
+// entity 416
 {
 "classname" "info_teleport_destination"
 "origin" "-16 1536 536"
 "targetname" "MainHubBottomSpawnNW"
 }
-// entity 418
+// entity 417
 {
 "classname" "info_teleport_destination"
 "origin" "56 456 536"
 "targetname" "MainHubBottomSpawnSW"
 "angle" "90"
 }
-// entity 419
+// entity 418
 {
 "classname" "info_teleport_destination"
 "origin" "792 464 536"
 "targetname" "MainHubBottomSpawnSE"
 "angle" "90"
 }
-// entity 420
+// entity 419
 {
 "classname" "info_teleport_destination"
 "origin" "496 312 736"
 "targetname" "MainHubTopSouthSpawnOne"
 "angle" "90"
 }
-// entity 421
+// entity 420
 {
 "classname" "info_teleport_destination"
 "origin" "336 312 736"
 "targetname" "MainHubTopSouthSpawnTwo"
 "angle" "90"
 }
-// entity 422
+// entity 421
 {
 "classname" "info_teleport_destination"
 "origin" "928 1088 736"
 "targetname" "MainHubTopSpawnEastOne"
 "angle" "180"
 }
-// entity 423
+// entity 422
 {
 "classname" "info_teleport_destination"
 "origin" "928 944 736"
 "targetname" "MainHubTopSpawnEastTwo"
 "angle" "180"
 }
-// entity 424
+// entity 423
 {
 "classname" "trigger_teleport"
 "targetname" "FinalWaveOne"
@@ -25136,13 +25168,13 @@
 ( 1560 560 1216 ) ( 1560 576 1208 ) ( 1560 560 1208 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 425
+// entity 424
 {
 "classname" "monster_enforcer"
 "origin" "1912 872 1232"
 "target" "FinalWaveThreeCounter"
 }
-// entity 426
+// entity 425
 {
 "classname" "trigger_teleport"
 "targetname" "FinalWaveOne"
@@ -25157,7 +25189,7 @@
 ( 1560 504 1216 ) ( 1560 520 1208 ) ( 1560 504 1208 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 427
+// entity 426
 {
 "classname" "trigger_teleport"
 "targetname" "FinalWaveOne"
@@ -25172,7 +25204,7 @@
 ( 1560 456 1216 ) ( 1560 472 1208 ) ( 1560 456 1208 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 428
+// entity 427
 {
 "classname" "trigger_teleport"
 "targetname" "FinalWaveOne"
@@ -25187,19 +25219,19 @@
 ( 1560 352 1216 ) ( 1560 368 1208 ) ( 1560 352 1208 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 429
+// entity 428
 {
 "classname" "info_teleport_destination"
 "origin" "520 1688 808"
 "targetname" "MainHubTopNorthSpawnOne"
 }
-// entity 430
+// entity 429
 {
 "classname" "info_teleport_destination"
 "origin" "376 1688 808"
 "targetname" "MainHubTopNorthSpawnTwo"
 }
-// entity 431
+// entity 430
 {
 "classname" "trigger_teleport"
 "targetname" "FinalWaveOne"
@@ -25214,7 +25246,7 @@
 ( 1560 296 1216 ) ( 1560 312 1208 ) ( 1560 296 1208 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 432
+// entity 431
 {
 "classname" "trigger_teleport"
 "targetname" "FinalWaveOne"
@@ -25229,7 +25261,7 @@
 ( 1560 248 1216 ) ( 1560 264 1208 ) ( 1560 248 1208 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 433
+// entity 432
 {
 "classname" "trigger_counter"
 "origin" "1504 520 1320"
@@ -25239,14 +25271,14 @@
 "target" "FinalWaveTwo"
 "message" "Two more..."
 }
-// entity 434
+// entity 433
 {
 "classname" "trigger_relay"
 "origin" "1984 560 1304"
 "targetname" "FinalWaveTwo"
 "target" "SpawnWaveTwo"
 }
-// entity 435
+// entity 434
 {
 "classname" "trigger_counter"
 "origin" "1984 496 1296"
@@ -25255,7 +25287,7 @@
 "target" "FinalWaveThree"
 "spawnflags" "1"
 }
-// entity 436
+// entity 435
 {
 "classname" "trigger_teleport"
 "targetname" "SpawnWaveTwo"
@@ -25270,7 +25302,7 @@
 ( 1936 560 1216 ) ( 1936 576 1208 ) ( 1936 560 1208 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 437
+// entity 436
 {
 "classname" "trigger_teleport"
 "targetname" "SpawnWaveTwo"
@@ -25285,7 +25317,7 @@
 ( 1936 504 1216 ) ( 1936 520 1208 ) ( 1936 504 1208 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 438
+// entity 437
 {
 "classname" "trigger_teleport"
 "targetname" "SpawnWaveTwo"
@@ -25300,7 +25332,7 @@
 ( 1936 440 1216 ) ( 1936 456 1208 ) ( 1936 440 1208 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 439
+// entity 438
 {
 "classname" "trigger_relay"
 "origin" "1984 416 1304"
@@ -25308,7 +25340,7 @@
 "target" "SpawnWaveTwoTwo"
 "delay" "4"
 }
-// entity 440
+// entity 439
 {
 "classname" "trigger_teleport"
 "targetname" "SpawnWaveTwoTwo"
@@ -25323,7 +25355,7 @@
 ( 1936 272 1216 ) ( 1936 288 1208 ) ( 1936 272 1208 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 441
+// entity 440
 {
 "classname" "trigger_teleport"
 "targetname" "SpawnWaveTwoTwo"
@@ -25338,26 +25370,26 @@
 ( 1936 192 1216 ) ( 1936 208 1208 ) ( 1936 192 1208 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 442
+// entity 441
 {
 "classname" "monster_army"
 "origin" "1728 928 1232"
 "target" "FinalWaveThreeCounter"
 }
-// entity 443
+// entity 442
 {
 "classname" "monster_army"
 "origin" "1768 928 1232"
 "target" "FinalWaveThreeCounter"
 }
-// entity 444
+// entity 443
 {
 "classname" "trigger_relay"
 "origin" "1592 984 1304"
 "targetname" "FinalWaveThree"
 "target" "SpawnWaveThreeGrunts"
 }
-// entity 445
+// entity 444
 {
 "classname" "trigger_counter"
 "origin" "1664 984 1304"
@@ -25366,7 +25398,7 @@
 "targetname" "FinalWaveThreeCounter"
 "killtarget" "FinalGate"
 }
-// entity 446
+// entity 445
 {
 "classname" "trigger_teleport"
 "targetname" "SpawnWaveThreeGrunts"
@@ -25381,7 +25413,7 @@
 ( 1576 928 1216 ) ( 1576 944 1208 ) ( 1576 928 1208 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 447
+// entity 446
 {
 "classname" "trigger_teleport"
 "targetname" "SpawnWaveThreeGrunts"
@@ -25396,7 +25428,7 @@
 ( 1632 928 1216 ) ( 1632 944 1208 ) ( 1632 928 1208 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 448
+// entity 447
 {
 "classname" "trigger_teleport"
 "targetname" "SpawnWaveThreeGrunts"
@@ -25411,7 +25443,7 @@
 ( 1680 928 1216 ) ( 1680 944 1208 ) ( 1680 928 1208 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 449
+// entity 448
 {
 "classname" "trigger_teleport"
 "targetname" "SpawnWaveThreeGrunts"
@@ -25426,7 +25458,7 @@
 ( 1736 928 1216 ) ( 1736 944 1208 ) ( 1736 928 1208 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 450
+// entity 449
 {
 "classname" "trigger_teleport"
 "targetname" "SpawnWaveThreeGrunts"
@@ -25441,7 +25473,7 @@
 ( 1776 928 1216 ) ( 1776 944 1208 ) ( 1776 928 1208 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 451
+// entity 450
 {
 "classname" "trigger_teleport"
 "targetname" "SpawnWaveThreeGrunts"
@@ -25456,7 +25488,7 @@
 ( 1920 928 1216 ) ( 1920 944 1208 ) ( 1920 928 1208 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 452
+// entity 451
 {
 "classname" "trigger_teleport"
 "targetname" "SpawnWaveThreeGrunts"
@@ -25471,7 +25503,7 @@
 ( 1960 928 1216 ) ( 1960 944 1208 ) ( 1960 928 1208 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 453
+// entity 452
 {
 "classname" "trigger_teleport"
 "targetname" "SpawnWaveThreeThree"
@@ -25486,7 +25518,7 @@
 ( 1912 856 1216 ) ( 1912 872 1208 ) ( 1912 856 1208 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 454
+// entity 453
 {
 "classname" "trigger_relay"
 "origin" "1984 840 1272"
@@ -25494,7 +25526,7 @@
 "target" "SpawnWaveThreeThree"
 "delay" "2"
 }
-// entity 455
+// entity 454
 {
 "classname" "trigger_teleport"
 "targetname" "SpawnWaveThreeThree"
@@ -25509,7 +25541,7 @@
 ( 1768 824 1216 ) ( 1768 840 1208 ) ( 1768 824 1208 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 456
+// entity 455
 {
 "classname" "trigger_teleport"
 "targetname" "SpawnWaveThreeThree"
@@ -25524,7 +25556,7 @@
 ( 1688 824 1216 ) ( 1688 840 1208 ) ( 1688 824 1208 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 457
+// entity 456
 {
 "classname" "trigger_teleport"
 "targetname" "SpawnWaveThreeThree"
@@ -25539,7 +25571,7 @@
 ( 1608 824 1216 ) ( 1608 840 1208 ) ( 1608 824 1208 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 458
+// entity 457
 {
 "classname" "func_train"
 "targetname" "PuzzleGateClose"
@@ -25644,28 +25676,28 @@
 ( -136 1104 848 ) ( -136 1112 704 ) ( -136 1104 704 ) 32_brown_3 0 0 0 1 1
 }
 }
-// entity 459
+// entity 458
 {
 "classname" "path_corner"
 "origin" "-144 944 760"
 "targetname" "TPPuzzlePathOne"
 "target" "TPPuzzlePathTwo"
 }
-// entity 460
+// entity 459
 {
 "classname" "path_corner"
-"origin" "-136 944 520"
+"origin" "-136 944 512"
 "targetname" "TPPuzzlePathTwo"
 "target" "TPPuzzlePathThree"
 }
-// entity 461
+// entity 460
 {
 "classname" "path_corner"
-"origin" "-136 944 520"
+"origin" "-136 944 512"
 "targetname" "TPPuzzlePathThree"
 "target" "TPPuzzlePathTwo"
 }
-// entity 462
+// entity 461
 {
 "classname" "trigger_counter"
 "origin" "88 1704 672"
@@ -25675,14 +25707,14 @@
 "message" "  "
 "delay" "3"
 }
-// entity 463
+// entity 462
 {
 "classname" "trigger_relay"
 "origin" "336 264 2344"
 "targetname" "AcidKeyComplete"
 "target" "AcidKeyGateClose"
 }
-// entity 464
+// entity 463
 {
 "classname" "func_train"
 "targetname" "AcidKeyGateClose"
@@ -25751,33 +25783,33 @@
 ( 480 1200 664 ) ( 480 1208 656 ) ( 480 1200 656 ) 32_brown_3 0 0 0 1 1
 }
 }
-// entity 465
+// entity 464
 {
 "classname" "path_corner"
 "origin" "360 1200 656"
 "targetname" "AcidKeyGatePathOne"
 "target" "AcidKeyCompletePathTwo"
 }
-// entity 466
+// entity 465
 {
 "classname" "path_corner"
 "origin" "360 1200 656"
 }
-// entity 467
+// entity 466
 {
 "classname" "path_corner"
-"origin" "352 1208 528"
+"origin" "352 1208 520"
 "targetname" "AcidKeyCompletePathThree"
 "target" "AcidKeyCompletePathTwo"
 }
-// entity 468
+// entity 467
 {
 "classname" "path_corner"
-"origin" "352 1208 528"
+"origin" "352 1208 520"
 "targetname" "AcidKeyCompletePathTwo"
 "target" "AcidKeyCompletePathThree"
 }
-// entity 469
+// entity 468
 {
 "classname" "func_train"
 "targetname" "RedRoomCompleteGate"
@@ -25882,17 +25914,37 @@
 ( 976 936 856 ) ( 976 944 712 ) ( 976 936 712 ) 32_brown_3 0 0 0 1 1
 }
 }
+// entity 469
+{
+"classname" "path_corner"
+"origin" "968 936 512"
+"targetname" "RedRoomCompletePathTwo"
+"target" "RedRoomCompletePathThree"
+}
 // entity 470
 {
 "classname" "path_corner"
-"origin" "968 936 520"
-"targetname" "RedRoomCompletePathTwo"
-"target" "RedRoomCompletePathThree"
+"origin" "968 936 512"
+"targetname" "RedRoomCompletePathThree"
+"target" "RedRoomCompletePathTwo"
 }
 // entity 471
 {
 "classname" "path_corner"
-"origin" "968 936 520"
-"targetname" "RedRoomCompletePathThree"
+"origin" "968 936 720"
+"targetname" "RedRoomCompletePathOne"
 "target" "RedRoomCompletePathTwo"
+}
+// entity 472
+{
+"classname" "trigger_relay"
+"origin" "896 1208 2360"
+"targetname" "RedKeyComplete"
+"target" "RedRoomCompleteGate"
+}
+// entity 473
+{
+"classname" "info_player_start"
+"origin" "-248 -3584 -192"
+"angle" "300"
 }

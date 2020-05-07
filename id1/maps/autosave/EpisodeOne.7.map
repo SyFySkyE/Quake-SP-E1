@@ -17033,7 +17033,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Lava Trap"
-"_tb_id" "101"
+"_tb_id" "106"
 // brush 0
 {
 ( -1056 1016 80 ) ( -1056 896 88 ) ( -1056 896 80 ) *lavaskip 0 0 0 1 1
@@ -17048,7 +17048,7 @@
 {
 "classname" "trigger_teleport"
 "target" "tp1"
-"_tb_group" "101"
+"_tb_group" "106"
 // brush 0
 {
 ( -1056 1016 79 ) ( -1056 896 87 ) ( -1056 896 79 ) *lavaskip 0 0 0 1 1
@@ -19793,8 +19793,8 @@
 // entity 220
 {
 "classname" "info_player_start"
-"origin" "412 -279 376"
-"angle" "90"
+"origin" "-235 -3563 -160"
+"angle" "300"
 }
 // entity 221
 {
@@ -20728,7 +20728,7 @@
 // entity 297
 {
 "classname" "trigger_monsterjump"
-"height" "250"
+"height" "300"
 "speed" "250"
 "angle" "270"
 // brush 0
@@ -20861,6 +20861,7 @@
 "classname" "monster_wizard"
 "origin" "-296 2016 640"
 "targetname" "HubWizard"
+"target" "SpawnHubKnight"
 }
 // entity 310
 {
@@ -20895,7 +20896,6 @@
 {
 "classname" "monster_wizard"
 "origin" "-176 2016 640"
-"target" "SpawnHubKnight"
 "targetname" "HubWizard"
 }
 // entity 314
@@ -20927,4 +20927,9 @@
 "origin" "-272 2256 640"
 "target" "PuzzleGateCounter"
 "targetname" "HubKnightSpawnTwo"
+}
+// entity 317
+{
+"classname" "item_shells"
+"origin" "-144 -3208 9"
 }

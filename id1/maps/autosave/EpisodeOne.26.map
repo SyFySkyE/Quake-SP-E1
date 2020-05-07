@@ -19996,6 +19996,15 @@
 ( 1320 2792 248 ) ( 1336 2776 80 ) ( 1336 2776 248 ) 128_honey_3 0 0 0 1 1
 ( 1336 2744 248 ) ( 1336 2776 80 ) ( 1336 2744 80 ) 128_honey_3 0 0 0 1 1
 }
+// brush 2158
+{
+( -128 472 712 ) ( -128 416 672 ) ( -128 472 672 ) 128_honey_3 0 0 0 1 1
+( -56 416 712 ) ( -128 416 672 ) ( -128 416 712 ) 128_honey_3 0 0 0 1 1
+( -56 416 672 ) ( -128 472 672 ) ( -128 416 672 ) 128_honey_3 0 0 0 1 1
+( -56 416 712 ) ( -128 472 712 ) ( -56 472 712 ) 128_honey_3 0 0 0 1 1
+( -56 472 672 ) ( -128 472 712 ) ( -128 472 672 ) 128_honey_3 0 0 0 1 1
+( -56 416 712 ) ( -56 472 672 ) ( -56 416 672 ) 128_honey_3 0 0 0 1 1
+}
 }
 // entity 1
 {
@@ -20109,7 +20118,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Lava Trap"
-"_tb_id" "102"
+"_tb_id" "116"
 // brush 0
 {
 ( -1056 1016 80 ) ( -1056 896 88 ) ( -1056 896 80 ) *lavaskip 0 0 0 1 1
@@ -20124,7 +20133,7 @@
 {
 "classname" "trigger_teleport"
 "target" "tp1"
-"_tb_group" "102"
+"_tb_group" "116"
 // brush 0
 {
 ( -1056 1016 79 ) ( -1056 896 87 ) ( -1056 896 79 ) *lavaskip 0 0 0 1 1
@@ -20879,7 +20888,7 @@
 "origin" "2520 1784 616"
 "delay" "3"
 "targetname" "TimerOver"
-"message" "time's up! ha ha ha...."
+"message" "you disappoint me..."
 "target" "RedKeyRedoTeleport"
 }
 // entity 78
@@ -20897,7 +20906,7 @@
 // entity 80
 {
 "classname" "monster_army"
-"origin" "1800 2688 576"
+"origin" "1744 2672 576"
 "target" "GateThreeCounter"
 }
 // entity 81
@@ -20909,9 +20918,10 @@
 // entity 82
 {
 "classname" "monster_army"
-"origin" "2320 2936 360"
+"origin" "2296 2936 360"
 "target" "RedFinalGateRoomFirst"
 "delay" "0"
+"angle" "150"
 }
 // entity 83
 {
@@ -21190,14 +21200,14 @@
 "classname" "monster_army"
 "origin" "2472 2408 352"
 "target" "RedFinalGateSpawnTwo"
-"delay" "1"
+"delay" "0"
 }
 // entity 92
 {
 "classname" "monster_army"
 "origin" "2616 2400 352"
 "target" "RedFinalGateRoomSecond"
-"delay" "1"
+"delay" "0"
 }
 // entity 93
 {
@@ -24618,7 +24628,7 @@
 "classname" "trigger_counter"
 "origin" "1240 2960 288"
 "count" "9"
-"delay" "1"
+"delay" "2"
 "killtarget" "RedKeyGate"
 "targetname" "FInalRedCounter"
 }
@@ -24719,6 +24729,7 @@
 "classname" "monster_army"
 "origin" "2408 2368 352"
 "target" "GateFiveCounter"
+"delay" "0"
 }
 // entity 384
 {
@@ -24740,50 +24751,44 @@
 "classname" "monster_army"
 "origin" "2472 2344 352"
 "target" "RedFinalGateSpawnThree"
-"delay" "1"
+"delay" "0"
 }
 // entity 386
-{
-"classname" "info_player_start"
-"origin" "2400 1800 576"
-"angle" "90"
-}
-// entity 387
 {
 "classname" "monster_army"
 "origin" "2232 2896 576"
 "target" "GateTwoCounter"
 }
-// entity 388
+// entity 387
 {
 "classname" "monster_army"
-"origin" "1808 2904 576"
+"origin" "1776 2952 576"
 "target" "GateThreeCounter"
 }
-// entity 389
+// entity 388
 {
 "classname" "monster_army"
 "origin" "1664 2824 576"
 "target" "GateThreeCounter"
 }
+// entity 389
+{
+"classname" "monster_army"
+"origin" "1624 2936 360"
+"target" "GateFourCounter"
+"angle" "285"
+}
 // entity 390
 {
 "classname" "monster_army"
-"origin" "1632 2904 360"
+"origin" "1728 2832 360"
 "target" "GateFourCounter"
-"angle" "285"
+"angle" "240"
 }
 // entity 391
 {
 "classname" "monster_army"
-"origin" "1744 2864 360"
-"target" "GateFourCounter"
-"angle" "240"
-}
-// entity 392
-{
-"classname" "monster_army"
-"origin" "1752 2968 360"
+"origin" "1856 2952 360"
 "target" "GateFourCounter"
 "angle" "255"
 }

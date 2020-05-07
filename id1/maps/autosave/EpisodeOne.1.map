@@ -16934,7 +16934,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Lava Trap"
-"_tb_id" "69"
+"_tb_id" "71"
 // brush 0
 {
 ( -1056 1016 80 ) ( -1056 896 88 ) ( -1056 896 80 ) *lavaskip 0 0 0 1 1
@@ -16949,7 +16949,7 @@
 {
 "classname" "trigger_teleport"
 "target" "tp1"
-"_tb_group" "69"
+"_tb_group" "71"
 // brush 0
 {
 ( -1056 1016 79 ) ( -1056 896 87 ) ( -1056 896 79 ) *lavaskip 0 0 0 1 1
@@ -20215,36 +20215,44 @@
 "classname" "monster_army"
 "origin" "40 704 536"
 "target" "MainHubCornerOne"
+"targetname" "HubGuard"
 }
 // entity 274
 {
 "classname" "monster_army"
 "origin" "800 704 536"
+"target" "MainHubCornerFour"
+"targetname" "HubGuard"
 }
 // entity 275
 {
 "classname" "monster_army"
-"origin" "792 1336 536"
+"origin" "760 1400 536"
+"target" "MainHubCornerSix"
 }
 // entity 276
 {
 "classname" "monster_army"
 "origin" "48 1392 536"
+"target" "MainHubCornerFive"
 }
 // entity 277
 {
 "classname" "monster_knight"
 "origin" "424 1672 536"
+"target" "PuzzleGateCounter"
 }
 // entity 278
 {
 "classname" "monster_knight"
-"origin" "56 1504 536"
+"origin" "72 1536 536"
+"target" "MainHubCornerTen"
 }
 // entity 279
 {
 "classname" "monster_knight"
-"origin" "784 1544 536"
+"origin" "752 1536 536"
+"target" "MainHubCornerTen"
 }
 // entity 280
 {
@@ -20547,7 +20555,7 @@
 "classname" "trigger_counter"
 "origin" "720 1720 592"
 "targetname" "PuzzleGateCounter"
-"count" "7"
+"count" "1"
 "message" "Pass the 3 trials to challenge me..."
 "killtarget" "PuzzleGate"
 }
@@ -20556,6 +20564,7 @@
 "classname" "path_corner"
 "origin" "40 1344 520"
 "targetname" "MainHubCornerOne"
+"target" "MainHubCornerTwo"
 }
 // entity 289
 {
@@ -20563,4 +20572,60 @@
 "origin" "40 704 520"
 "targetname" "MainHubCornerTwo"
 "target" "MainHubCornerOne"
+}
+// entity 290
+{
+"classname" "path_corner"
+"origin" "792 696 520"
+"targetname" "MainHubCornerThree"
+"target" "MainHubCornerFour"
+}
+// entity 291
+{
+"classname" "path_corner"
+"origin" "792 1336 520"
+"targetname" "MainHubCornerFour"
+"target" "MainHubCornerThree"
+}
+// entity 292
+{
+"classname" "path_corner"
+"origin" "40 1400 520"
+"targetname" "MainHubCornerFive"
+"target" "MainHubCornerSix"
+}
+// entity 293
+{
+"classname" "path_corner"
+"origin" "792 1400 520"
+"targetname" "MainHubCornerSix"
+"target" "MainHubCornerFive"
+}
+// entity 294
+{
+"classname" "path_corner"
+"origin" "792 1456 520"
+"targetname" "MainHubCornerSeven"
+"target" "MainHubCornerEight"
+}
+// entity 295
+{
+"classname" "path_corner"
+"origin" "16 1464 520"
+"targetname" "MainHubCornerEight"
+"target" "MainHubCornerSeven"
+}
+// entity 296
+{
+"classname" "path_corner"
+"origin" "40 1536 520"
+"targetname" "MainHubCornerNine"
+"target" "MainHubCornerSeven"
+}
+// entity 297
+{
+"classname" "path_corner"
+"origin" "792 1536 520"
+"targetname" "MainHubCornerTen"
+"target" "MainHubCornerNine"
 }

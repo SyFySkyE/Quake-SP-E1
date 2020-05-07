@@ -17033,7 +17033,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Lava Trap"
-"_tb_id" "111"
+"_tb_id" "121"
 // brush 0
 {
 ( -1056 1016 80 ) ( -1056 896 88 ) ( -1056 896 80 ) *lavaskip 0 0 0 1 1
@@ -17048,7 +17048,7 @@
 {
 "classname" "trigger_teleport"
 "target" "tp1"
-"_tb_group" "111"
+"_tb_group" "121"
 // brush 0
 {
 ( -1056 1016 79 ) ( -1056 896 87 ) ( -1056 896 79 ) *lavaskip 0 0 0 1 1
@@ -17514,7 +17514,7 @@
 "angle" "90"
 "target" "Gate"
 "health" "1"
-"message" "Tick tock..."
+"message" "can you make it to the end in time?"
 "wait" "60"
 // brush 0
 {
@@ -20748,12 +20748,12 @@
 "target" "HubDemon"
 // brush 0
 {
-( -120 824 632 ) ( -120 816 512 ) ( -120 824 512 ) 32_brown_3 0 0 0 1 1
-( -120 816 632 ) ( 944 816 512 ) ( -120 816 512 ) 32_brown_3 0 0 0 1 1
-( 944 824 512 ) ( -120 816 512 ) ( 944 816 512 ) 32_brown_3 0 0 0 1 1
-( -120 824 632 ) ( 944 816 632 ) ( -120 816 632 ) 32_brown_3 0 0 0 1 1
-( -120 824 632 ) ( 944 824 512 ) ( 944 824 632 ) 32_brown_3 0 0 0 1 1
-( 944 816 632 ) ( 944 824 512 ) ( 944 816 512 ) 32_brown_3 0 0 0 1 1
+( -120 808 632 ) ( -120 800 512 ) ( -120 808 512 ) 32_brown_3 0 0 0 1 1
+( -120 800 632 ) ( 944 800 512 ) ( -120 800 512 ) 32_brown_3 0 0 0 1 1
+( 944 808 512 ) ( -120 800 512 ) ( 944 800 512 ) 32_brown_3 0 0 0 1 1
+( -120 808 632 ) ( 944 800 632 ) ( -120 800 632 ) 32_brown_3 0 0 0 1 1
+( -120 808 632 ) ( 944 808 512 ) ( 944 808 632 ) 32_brown_3 0 0 0 1 1
+( 944 800 632 ) ( 944 808 512 ) ( 944 800 512 ) 32_brown_3 0 0 0 1 1
 }
 }
 // entity 299
@@ -20762,18 +20762,18 @@
 "target" "HubWizard"
 // brush 0
 {
-( -120 1224 632 ) ( -120 1216 512 ) ( -120 1224 512 ) 32_brown_3 0 0 0 1 1
-( -120 1216 632 ) ( 944 1216 512 ) ( -120 1216 512 ) 32_brown_3 0 0 0 1 1
-( 944 1224 512 ) ( -120 1216 512 ) ( 944 1216 512 ) 32_brown_3 0 0 0 1 1
-( -120 1224 632 ) ( 944 1216 632 ) ( -120 1216 632 ) 32_brown_3 0 0 0 1 1
-( -120 1224 632 ) ( 944 1224 512 ) ( 944 1224 632 ) 32_brown_3 0 0 0 1 1
-( 944 1216 632 ) ( 944 1224 512 ) ( 944 1216 512 ) 32_brown_3 0 0 0 1 1
+( -120 1240 632 ) ( -120 1232 512 ) ( -120 1240 512 ) 32_brown_3 0 0 0 1 1
+( -120 1232 632 ) ( 944 1232 512 ) ( -120 1232 512 ) 32_brown_3 0 0 0 1 1
+( 944 1240 512 ) ( -120 1232 512 ) ( 944 1232 512 ) 32_brown_3 0 0 0 1 1
+( -120 1240 632 ) ( 944 1232 632 ) ( -120 1232 632 ) 32_brown_3 0 0 0 1 1
+( -120 1240 632 ) ( 944 1240 512 ) ( 944 1240 632 ) 32_brown_3 0 0 0 1 1
+( 944 1232 632 ) ( 944 1240 512 ) ( 944 1232 512 ) 32_brown_3 0 0 0 1 1
 }
 }
 // entity 300
 {
 "classname" "info_teleport_destination"
-"origin" "448 1696 880"
+"origin" "448 1696 808"
 "targetname" "HubWizardSpawn"
 }
 // entity 301
@@ -20807,7 +20807,7 @@
 // entity 304
 {
 "classname" "trigger_teleport"
-"target" "HubWizardSpawn"
+"target" "HubWizardSecondSpawn"
 "targetname" "HubWizardSpawnTwo"
 // brush 0
 {
@@ -20838,7 +20838,7 @@
 // entity 307
 {
 "classname" "trigger_teleport"
-"target" "HubWizardSpawn"
+"target" "HubWizardThirdSpawn"
 "targetname" "HubWizardSpawnThree"
 // brush 0
 {
@@ -20898,7 +20898,7 @@
 "origin" "-272 2168 624"
 "targetname" "SpawnHubKnight"
 "target" "HubKnightSpawnTwo"
-"delay" "3"
+"delay" "2"
 }
 // entity 314
 {
@@ -20925,7 +20925,7 @@
 // entity 316
 {
 "classname" "item_shells"
-"origin" "-144 -3208 9"
+"origin" "-144 -3208 1"
 }
 // entity 317
 {
@@ -20934,6 +20934,49 @@
 }
 // entity 318
 {
+"classname" "item_health"
+"origin" "592 2984 512"
+}
+// entity 319
+{
+"classname" "item_rockets"
+"origin" "600 2904 512"
+}
+// entity 320
+{
+"classname" "item_armor1"
+"origin" "-672 3016 512"
+}
+// entity 321
+{
+"classname" "item_shells"
+"origin" "-680 2904 512"
+}
+// entity 322
+{
 "classname" "item_spikes"
-"origin" "600 2944 512"
+"origin" "616 3656 512"
+}
+// entity 323
+{
+"classname" "item_health"
+"origin" "616 3760 512"
+}
+// entity 324
+{
+"classname" "info_teleport_destination"
+"origin" "280 1688 752"
+"targetname" "HubWizardSecondSpawn"
+}
+// entity 325
+{
+"classname" "info_teleport_destination"
+"origin" "616 1696 752"
+"targetname" "HubWizardThirdSpawn"
+}
+// entity 326
+{
+"classname" "info_player_start"
+"origin" "-240 -3584 -192"
+"angle" "315"
 }

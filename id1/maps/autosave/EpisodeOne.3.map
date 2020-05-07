@@ -16934,7 +16934,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Lava Trap"
-"_tb_id" "77"
+"_tb_id" "83"
 // brush 0
 {
 ( -1056 1016 80 ) ( -1056 896 88 ) ( -1056 896 80 ) *lavaskip 0 0 0 1 1
@@ -16949,7 +16949,7 @@
 {
 "classname" "trigger_teleport"
 "target" "tp1"
-"_tb_group" "77"
+"_tb_group" "83"
 // brush 0
 {
 ( -1056 1016 79 ) ( -1056 896 87 ) ( -1056 896 79 ) *lavaskip 0 0 0 1 1
@@ -20634,5 +20634,65 @@
 // entity 298
 {
 "classname" "monster_demon1"
-"origin" "848 144 1040"
+"origin" "848 1816 1040"
+"angle" "270"
+"targetname" "HubDemon"
+}
+// entity 299
+{
+"classname" "trigger_monsterjump"
+"height" "500"
+"speed" "500"
+"angle" "270"
+// brush 0
+{
+( -120 1736 1024 ) ( -120 1728 1016 ) ( -120 1736 1016 ) 32_brown_3 0 0 0 1 1
+( 768 1728 1024 ) ( 944 1728 1016 ) ( 768 1728 1016 ) 32_brown_3 0 0 0 1 1
+( 944 1736 1016 ) ( 768 1728 1016 ) ( 944 1728 1016 ) 32_brown_3 0 0 0 1 1
+( 768 1736 1024 ) ( 944 1728 1024 ) ( 768 1728 1024 ) 32_brown_3 0 0 0 1 1
+( 768 1736 1024 ) ( 944 1736 1016 ) ( 944 1736 1024 ) 32_brown_3 0 0 0 1 1
+( 944 1728 1024 ) ( 944 1736 1016 ) ( 944 1728 1016 ) 32_brown_3 0 0 0 1 1
+}
+}
+// entity 300
+{
+"classname" "monster_demon1"
+"origin" "-16 1824 1040"
+"angle" "270"
+"targetname" "HubDemon"
+}
+// entity 301
+{
+"classname" "trigger_once"
+"target" "HubDemon"
+// brush 0
+{
+( -120 824 632 ) ( -120 816 512 ) ( -120 824 512 ) 32_brown_3 0 0 0 1 1
+( -120 816 632 ) ( 944 816 512 ) ( -120 816 512 ) 32_brown_3 0 0 0 1 1
+( 944 824 512 ) ( -120 816 512 ) ( 944 816 512 ) 32_brown_3 0 0 0 1 1
+( -120 824 632 ) ( 944 816 632 ) ( -120 816 632 ) 32_brown_3 0 0 0 1 1
+( -120 824 632 ) ( 944 824 512 ) ( 944 824 632 ) 32_brown_3 0 0 0 1 1
+( 944 816 632 ) ( 944 824 512 ) ( 944 816 512 ) 32_brown_3 0 0 0 1 1
+}
+}
+// entity 302
+{
+"classname" "monster_army"
+"origin" "-24 704 536"
+"target" "MainHubCornerOne"
+"targetname" "HubGuard"
+}
+// entity 303
+{
+"classname" "monster_army"
+"origin" "864 704 536"
+"target" "MainHubCornerFour"
+"targetname" "HubGuard"
+}
+// entity 304
+{
+"classname" "path_corner"
+"origin" "-8 1344 520"
+"targetname" "MainHubCornerOne"
+"target" "MainHubCornerTwo"
 }

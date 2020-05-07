@@ -79,7 +79,7 @@ Wrote EpisodeOne.bsp
            45 textures         501400
               lightdata             0
               visdata               0
-              entdata           58085
+              entdata           58071
 
-2.432 seconds elapsed
-Peak memory usage: 91889344 (87.6M)
+2.467 seconds elapsed
+Peak memory usage: 91889320 (87.6M)

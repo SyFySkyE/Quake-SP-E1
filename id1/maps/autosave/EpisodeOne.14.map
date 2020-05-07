@@ -13504,7 +13504,7 @@
 ( -2232 2552 168 ) ( -2232 2552 169 ) ( -2231 2552 168 ) 128_honey_3 0 0 0 1 1
 ( -2248 2560 336 ) ( -2256 2688 336 ) ( -2256 2560 336 ) 128_honey_3 0 0 0 1 1
 ( -2136 2840 344 ) ( -2136 2841 344 ) ( -2135 2840 344 ) 128_honey_3 0 0 0 1 1
-( -2224 3096 176 ) ( -2232 3096 304 ) ( -2232 3096 176 ) 128_honey_3 0 0 0 1 1
+( -2224 3104 176 ) ( -2232 3104 304 ) ( -2232 3104 176 ) 128_honey_3 0 0 0 1 1
 ( -2144 2832 176 ) ( -2144 2824 176 ) ( -2144 2824 304 ) 128_honey_3 0 0 0 1 1
 }
 // brush 1452
@@ -18851,7 +18851,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Lava Trap"
-"_tb_id" "15"
+"_tb_id" "23"
 // brush 0
 {
 ( -1056 1016 80 ) ( -1056 896 88 ) ( -1056 896 80 ) *lavaskip 0 0 0 1 1
@@ -18866,7 +18866,7 @@
 {
 "classname" "trigger_teleport"
 "target" "tp1"
-"_tb_group" "15"
+"_tb_group" "23"
 // brush 0
 {
 ( -1056 1016 79 ) ( -1056 896 87 ) ( -1056 896 79 ) *lavaskip 0 0 0 1 1
@@ -22824,6 +22824,7 @@
 {
 "classname" "monster_wizard"
 "origin" "-2240 2832 200"
+"target" "AcidRoomCounter"
 }
 // entity 330
 {
@@ -22844,6 +22845,7 @@
 {
 "classname" "monster_wizard"
 "origin" "-2240 2888 200"
+"target" "AcidRoomCounter"
 }
 // entity 332
 {
@@ -22864,6 +22866,7 @@
 {
 "classname" "monster_wizard"
 "origin" "-2240 2944 200"
+"target" "AcidRoomCounter"
 }
 // entity 334
 {
@@ -22871,7 +22874,6 @@
 "origin" "-2320 2832 184"
 "targetname" "AcidRoomTeleportLastWizards"
 "target" "TeleportAcidRoomMonsters"
-"delay" "1"
 }
 // entity 335
 {
@@ -22883,4 +22885,81 @@
 {
 "classname" "item_spikes"
 "origin" "-1184 3152 -184"
+}
+// entity 337
+{
+"classname" "info_teleport_destination"
+"origin" "-1224 1792 -160"
+"angle" "90"
+"targetname" "AcidDoorTeleportDestination"
+}
+// entity 338
+{
+"classname" "trigger_counter"
+"origin" "-2328 2832 280"
+"targetname" "AcidRoomCounter"
+"count" "3"
+"spawnflags" "1"
+"target" "FinalAcidRoomWaveTrigger"
+}
+// entity 339
+{
+"classname" "monster_army"
+"origin" "-2272 3056 200"
+"angle" "270"
+}
+// entity 340
+{
+"classname" "monster_army"
+"origin" "-2200 3056 200"
+"angle" "270"
+}
+// entity 341
+{
+"classname" "trigger_teleport"
+"target" "AcidDoorTeleportDestination"
+"targetname" "AcidRoomGruntOne"
+// brush 0
+{
+( -2280 3064 184 ) ( -2280 3048 176 ) ( -2280 3064 176 ) 128_honey_3 0 0 0 1 1
+( -2280 3048 184 ) ( -2264 3048 176 ) ( -2280 3048 176 ) 128_honey_3 0 0 0 1 1
+( -2264 3064 176 ) ( -2280 3048 176 ) ( -2264 3048 176 ) 128_honey_3 0 0 0 1 1
+( -2280 3064 184 ) ( -2264 3048 184 ) ( -2280 3048 184 ) 128_honey_3 0 0 0 1 1
+( -2280 3064 184 ) ( -2264 3064 176 ) ( -2264 3064 184 ) 128_honey_3 0 0 0 1 1
+( -2264 3048 184 ) ( -2264 3064 176 ) ( -2264 3048 176 ) 128_honey_3 0 0 0 1 1
+}
+}
+// entity 342
+{
+"classname" "trigger_teleport"
+"target" "AcidDoorTeleportDestination"
+"targetname" "AcidRoomGruntTwo"
+// brush 0
+{
+( -2208 3064 184 ) ( -2208 3048 176 ) ( -2208 3064 176 ) 128_honey_3 0 0 0 1 1
+( -2208 3048 184 ) ( -2192 3048 176 ) ( -2208 3048 176 ) 128_honey_3 0 0 0 1 1
+( -2192 3064 176 ) ( -2208 3048 176 ) ( -2192 3048 176 ) 128_honey_3 0 0 0 1 1
+( -2208 3064 184 ) ( -2192 3048 184 ) ( -2208 3048 184 ) 128_honey_3 0 0 0 1 1
+( -2208 3064 184 ) ( -2192 3064 176 ) ( -2192 3064 184 ) 128_honey_3 0 0 0 1 1
+( -2192 3048 184 ) ( -2192 3064 176 ) ( -2192 3048 176 ) 128_honey_3 0 0 0 1 1
+}
+}
+// entity 343
+{
+"classname" "trigger_counter"
+"origin" "-2328 2904 280"
+"targetname" "FinalAcidRoomWaveTrigger"
+"count" "1"
+"spawnflags" "aw"
+"target" "AcidRoomGruntOne"
+}
+// entity 344
+{
+"classname" "trigger_counter"
+"origin" "-2320 2936 280"
+"targetname" "FinalAcidRoomWaveTrigger"
+"count" "1"
+"spawnflags" "aw"
+"delay" "1"
+"target" "AcidRoomGruntTwo"
 }

@@ -17033,7 +17033,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Lava Trap"
-"_tb_id" "96"
+"_tb_id" "101"
 // brush 0
 {
 ( -1056 1016 80 ) ( -1056 896 88 ) ( -1056 896 80 ) *lavaskip 0 0 0 1 1
@@ -17048,7 +17048,7 @@
 {
 "classname" "trigger_teleport"
 "target" "tp1"
-"_tb_group" "96"
+"_tb_group" "101"
 // brush 0
 {
 ( -1056 1016 79 ) ( -1056 896 87 ) ( -1056 896 79 ) *lavaskip 0 0 0 1 1
@@ -20327,12 +20327,14 @@
 // entity 275
 {
 "classname" "monster_army"
-"origin" "864 968 536"
+"origin" "888 1248 536"
+"targetname" "HubGuard"
 }
 // entity 276
 {
 "classname" "monster_army"
-"origin" "-32 1040 536"
+"origin" "16 1264 536"
+"targetname" "HubGuard"
 }
 // entity 277
 {
@@ -20635,7 +20637,7 @@
 "classname" "trigger_counter"
 "origin" "720 1720 592"
 "targetname" "PuzzleGateCounter"
-"count" "1"
+"count" "2"
 "message" "Pass the 3 trials to challenge me..."
 "killtarget" "PuzzleGate"
 }
@@ -20700,7 +20702,7 @@
 "classname" "path_corner"
 "origin" "40 1536 520"
 "targetname" "MainHubCornerNine"
-"target" "MainHubCornerSeven"
+"target" "MainHubCornerTen"
 }
 // entity 294
 {
@@ -20726,8 +20728,8 @@
 // entity 297
 {
 "classname" "trigger_monsterjump"
-"height" "200"
-"speed" "500"
+"height" "250"
+"speed" "250"
 "angle" "270"
 // brush 0
 {
@@ -20784,6 +20786,7 @@
 {
 "classname" "monster_wizard"
 "origin" "-232 2016 640"
+"targetname" "HubWizard"
 }
 // entity 303
 {
@@ -20857,9 +20860,71 @@
 {
 "classname" "monster_wizard"
 "origin" "-296 2016 640"
+"targetname" "HubWizard"
 }
 // entity 310
 {
 "classname" "trigger_relay"
 "origin" "-192 2168 624"
+"targetname" "SpawnHubKnight"
+"target" "HubKnightSpawnOne"
+}
+// entity 311
+{
+"classname" "trigger_teleport"
+"target" "AcidKeyCompleteTeleport"
+"targetname" "HubKnightSpawnOne"
+// brush 0
+{
+( -208 2256 624 ) ( -208 2240 616 ) ( -208 2256 616 ) 32_brown_3 0 0 0 1 1
+( -208 2240 624 ) ( -192 2240 616 ) ( -208 2240 616 ) 32_brown_3 0 0 0 1 1
+( -192 2256 616 ) ( -208 2240 616 ) ( -192 2240 616 ) 32_brown_3 0 0 0 1 1
+( -208 2256 624 ) ( -192 2240 624 ) ( -208 2240 624 ) 32_brown_3 0 0 0 1 1
+( -208 2256 624 ) ( -192 2256 616 ) ( -192 2256 624 ) 32_brown_3 0 0 0 1 1
+( -192 2240 624 ) ( -192 2256 616 ) ( -192 2240 616 ) 32_brown_3 0 0 0 1 1
+}
+}
+// entity 312
+{
+"classname" "monster_knight"
+"origin" "-192 2256 640"
+"target" "PuzzleGateCounter"
+"targetname" "HubKnightSpawnOne"
+}
+// entity 313
+{
+"classname" "monster_wizard"
+"origin" "-176 2016 640"
+"target" "SpawnHubKnight"
+"targetname" "HubWizard"
+}
+// entity 314
+{
+"classname" "trigger_relay"
+"origin" "-272 2168 624"
+"targetname" "SpawnHubKnight"
+"target" "HubKnightSpawnTwo"
+"delay" "3"
+}
+// entity 315
+{
+"classname" "trigger_teleport"
+"target" "AcidKeyCompleteTeleport"
+"targetname" "HubKnightSpawnTwo"
+// brush 0
+{
+( -288 2256 624 ) ( -288 2240 616 ) ( -288 2256 616 ) 32_brown_3 0 0 0 1 1
+( -288 2240 624 ) ( -272 2240 616 ) ( -288 2240 616 ) 32_brown_3 0 0 0 1 1
+( -272 2256 616 ) ( -288 2240 616 ) ( -272 2240 616 ) 32_brown_3 0 0 0 1 1
+( -288 2256 624 ) ( -272 2240 624 ) ( -288 2240 624 ) 32_brown_3 0 0 0 1 1
+( -288 2256 624 ) ( -272 2256 616 ) ( -272 2256 624 ) 32_brown_3 0 0 0 1 1
+( -272 2240 624 ) ( -272 2256 616 ) ( -272 2240 616 ) 32_brown_3 0 0 0 1 1
+}
+}
+// entity 316
+{
+"classname" "monster_knight"
+"origin" "-272 2256 640"
+"target" "PuzzleGateCounter"
+"targetname" "HubKnightSpawnTwo"
 }
