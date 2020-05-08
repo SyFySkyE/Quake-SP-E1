@@ -6,7 +6,7 @@ Output file: EpisodeOne.bsp
 *** WARNING 06: No info_player_deathmatch entities in level
         15960 faces
          2516 brushes
-          573 entities
+          575 entities
            37 unique texnames
           185 texinfo
 
@@ -79,7 +79,7 @@ Wrote EpisodeOne.bsp
            45 textures         501400
               lightdata             0
               visdata               0
-              entdata           58071
+              entdata           58450
 
-2.523 seconds elapsed
-Peak memory usage: 91889320 (87.6M)
+2.775 seconds elapsed
+Peak memory usage: 91889632 (87.6M)

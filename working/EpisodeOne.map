@@ -1202,7 +1202,7 @@
 ( 168 -3832 464 ) ( 168 -3832 -0 ) ( -488 -3832 -0 ) __TB_empty 0 0 0 1 1
 ( -488 -3832 -0 ) ( 168 -3832 -0 ) ( 168 -3816 -0 ) __TB_empty 0 0 0 1 1
 ( -432 -3816 8 ) ( -436 -3816 8 ) ( -436 -3688 8 ) 32_green_3 0 0 0 1 1
-( 168 -3816 -0 ) ( 168 -3816 464 ) ( -488 -3816 464 ) __TB_empty 0 0 0 1 1
+( 168 -3816 -0 ) ( 168 -3816 464 ) ( -488 -3816 464 ) 128_cyan_1 0 0 0 1 1
 ( 168 -3816 -0 ) ( 168 -3832 -0 ) ( 168 -3832 464 ) __TB_empty 0 0 0 1 1
 }
 // brush 116
@@ -20470,7 +20470,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Lava Trap"
-"_tb_id" "267"
+"_tb_id" "276"
 // brush 0
 {
 ( -1056 1016 80 ) ( -1056 896 88 ) ( -1056 896 80 ) *lavaskip 0 0 0 1 1
@@ -20485,7 +20485,7 @@
 {
 "classname" "trigger_teleport"
 "target" "tp1"
-"_tb_group" "267"
+"_tb_group" "276"
 // brush 0
 {
 ( -1056 1016 79 ) ( -1056 896 87 ) ( -1056 896 79 ) *lavaskip 0 0 0 1 1
@@ -22943,7 +22943,7 @@
 // entity 204
 {
 "classname" "trigger_changelevel"
-"map" "Start"
+"map" "start"
 // brush 0
 {
 ( -896 2080 1024 ) ( -896 2064 1088 ) ( -896 2064 1024 ) *tele01 0 0 0 1 1
@@ -24122,6 +24122,7 @@
 "classname" "monster_wizard"
 "origin" "-232 2016 640"
 "targetname" "HubWizard"
+"target" "SpawnHubKnightsCounter"
 }
 // entity 293
 {
@@ -24196,6 +24197,7 @@
 "classname" "monster_wizard"
 "origin" "-296 2016 640"
 "targetname" "HubWizard"
+"target" "SpawnHubKnightsCounter"
 }
 // entity 300
 {
@@ -24231,6 +24233,7 @@
 "classname" "monster_wizard"
 "origin" "-176 2016 640"
 "targetname" "HubWizard"
+"target" "SpawnHubKnightsCounter"
 }
 // entity 304
 {
@@ -27218,4 +27221,20 @@
 "targetname" "BossIsOpen"
 "delay" "1"
 "message" "the boss room is open!"
+}
+// entity 573
+{
+"classname" "trigger_counter"
+"origin" "-320 2128 648"
+"count" "3"
+"targetname" "SpawnHubKnightsCounter"
+"target" "SpawnHubbyKnights"
+"spawnflags" "1"
+}
+// entity 574
+{
+"classname" "trigger_relay"
+"origin" "-320 2160 648"
+"targetname" "SpawnHubbyKnights"
+"target" "HubWizardSecondSpawn"
 }

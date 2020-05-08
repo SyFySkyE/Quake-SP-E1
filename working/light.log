@@ -11,7 +11,7 @@ WARNING: entity at (-96 960 736) (info_teleport_destination) has targetname "Mai
 WARNING: entity at (496 312 736) (info_teleport_destination) has targetname "MainHubTopSouthSpawnOne" which is not targetted by anything.
 WARNING: entity at (928 944 736) (info_teleport_destination) has targetname "MainHubTopSpawnEastTwo" which is not targetted by anything.
 WARNING: brush entity with mins (-143.00 937.00 705.) maxs (-137.00 1111.00 895) (func_train) has targetname "PuzzleGateClose" which is not targetted by anything.
-572 entities read, 0 are lights.
+574 entities read, 0 are lights.
 --- OptionsSummary ---
     "bounce" was set to "1" from commandline
 Embree_TraceInit: Embree version: 2.15.0
@@ -36,7 +36,7 @@ Lighting Completed.
 lightdatasize: 0
 0 switchable light styles (32 max)
 Writing EpisodeOne.bsp as BSP version 29
-2.008 seconds elapsed
+2.291 seconds elapsed
 
 stats:
 0.000000 lights tested, 0.000000 hits per sample point
