@@ -5,7 +5,7 @@
 "classname" "worldspawn"
 "wad" "../wads/prototype_1_2.wad;../wads/START.WAD"
 "target" "AcidPlatThreeCorner"
-"sounds" "5"
+"sounds" "2"
 "message" "Castle Trials"
 // brush 0
 {
@@ -20470,7 +20470,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Lava Trap"
-"_tb_id" "250"
+"_tb_id" "257"
 // brush 0
 {
 ( -1056 1016 80 ) ( -1056 896 88 ) ( -1056 896 80 ) *lavaskip 0 0 0 1 1
@@ -20485,7 +20485,7 @@
 {
 "classname" "trigger_teleport"
 "target" "tp1"
-"_tb_group" "250"
+"_tb_group" "257"
 // brush 0
 {
 ( -1056 1016 79 ) ( -1056 896 87 ) ( -1056 896 79 ) *lavaskip 0 0 0 1 1
@@ -25083,22 +25083,6 @@
 }
 // entity 385
 {
-"classname" "func_button"
-"target" "KillGate"
-"health" "2"
-"angle" "180"
-// brush 0
-{
-( -128 472 712 ) ( -128 416 672 ) ( -128 472 672 ) 128_honey_3 0 0 0 1 1
-( -56 416 712 ) ( -128 416 672 ) ( -128 416 712 ) 128_honey_3 0 0 0 1 1
-( -56 416 672 ) ( -128 472 672 ) ( -128 416 672 ) 128_honey_3 0 0 0 1 1
-( -56 416 712 ) ( -128 472 712 ) ( -56 472 712 ) 128_honey_3 0 0 0 1 1
-( -56 472 672 ) ( -128 472 712 ) ( -128 472 672 ) 128_honey_3 0 0 0 1 1
-( -56 416 712 ) ( -56 472 672 ) ( -56 416 672 ) 128_honey_3 0 0 0 1 1
-}
-}
-// entity 386
-{
 "classname" "trigger_relay"
 "origin" "320 1720 704"
 "targetname" "FinalWaveRelay"
@@ -25106,188 +25090,188 @@
 "target" "FinalWaveOne"
 "delay" "2"
 }
-// entity 387
+// entity 386
 {
 "classname" "monster_wizard"
 "origin" "1560 256 1232"
 "target" "FinalWaveOneCounter"
 }
-// entity 388
+// entity 387
 {
 "classname" "monster_wizard"
 "origin" "1560 304 1232"
 "target" "FinalWaveOneCounter"
 }
-// entity 389
+// entity 388
 {
 "classname" "monster_wizard"
 "origin" "1560 360 1232"
 "target" "FinalWaveOneCounter"
 }
-// entity 390
+// entity 389
 {
 "classname" "monster_army"
 "origin" "1560 464 1232"
 "target" "FinalWaveOneCounter"
 }
-// entity 391
+// entity 390
 {
 "classname" "monster_army"
 "origin" "1560 512 1232"
 "target" "FinalWaveOneCounter"
 }
-// entity 392
+// entity 391
 {
 "classname" "monster_army"
 "origin" "1560 568 1232"
 "target" "FinalWaveOneCounter"
 }
-// entity 393
+// entity 392
 {
 "classname" "monster_demon1"
 "origin" "1928 200 1232"
 "target" "FinalWaveTwoCounter"
 }
-// entity 394
+// entity 393
 {
 "classname" "monster_demon1"
 "origin" "1928 280 1232"
 "target" "FinalWaveTwoCounter"
 }
-// entity 395
+// entity 394
 {
 "classname" "monster_knight"
 "origin" "1928 456 1232"
 "target" "FinalWaveTwoCounter"
 }
-// entity 396
+// entity 395
 {
 "classname" "monster_knight"
 "origin" "1928 512 1232"
 "target" "FinalWaveTwoCounter"
 }
-// entity 397
+// entity 396
 {
 "classname" "monster_knight"
 "origin" "1928 568 1232"
 "target" "FinalWaveTwoCounter"
 }
-// entity 398
+// entity 397
 {
 "classname" "monster_wizard"
 "origin" "1568 936 1232"
 "target" "FinalWaveThreeCounter"
 }
-// entity 399
+// entity 398
 {
 "classname" "monster_wizard"
 "origin" "1624 936 1232"
 "target" "FinalWaveThreeCounter"
 }
-// entity 400
+// entity 399
 {
 "classname" "monster_wizard"
 "origin" "1672 936 1232"
 "target" "FinalWaveThreeCounter"
 }
-// entity 401
+// entity 400
 {
 "classname" "monster_enforcer"
 "origin" "1912 928 1232"
 "target" "FinalWaveThreeCounter"
 }
-// entity 402
+// entity 401
 {
 "classname" "monster_enforcer"
 "origin" "1952 928 1232"
 "target" "FinalWaveThreeCounter"
 }
-// entity 403
+// entity 402
 {
 "classname" "monster_demon1"
 "origin" "1592 848 1232"
 "target" "FinalWaveThreeCounter"
 }
-// entity 404
+// entity 403
 {
 "classname" "monster_demon1"
 "origin" "1672 848 1232"
 "target" "FinalWaveThreeCounter"
 }
-// entity 405
+// entity 404
 {
 "classname" "monster_hell_knight"
 "origin" "1760 840 1232"
 "target" "FinalWaveThreeCounter"
 }
-// entity 406
+// entity 405
 {
 "classname" "info_teleport_destination"
 "origin" "-96 960 736"
 "targetname" "MainHubTopWestSpawnOne"
 }
-// entity 407
+// entity 406
 {
 "classname" "info_teleport_destination"
 "origin" "-96 1112 736"
 "targetname" "MainHubTopWestSpawnTwo"
 }
-// entity 408
+// entity 407
 {
 "classname" "info_teleport_destination"
 "origin" "832 1560 536"
 "targetname" "MainHubBottomSpawnNE"
 "angle" "270"
 }
-// entity 409
+// entity 408
 {
 "classname" "info_teleport_destination"
 "origin" "-16 1536 608"
 "targetname" "MainHubBottomSpawnNW"
 }
-// entity 410
+// entity 409
 {
 "classname" "info_teleport_destination"
 "origin" "56 456 592"
 "targetname" "MainHubBottomSpawnSW"
 "angle" "90"
 }
-// entity 411
+// entity 410
 {
 "classname" "info_teleport_destination"
 "origin" "792 464 600"
 "targetname" "MainHubBottomSpawnSE"
 "angle" "90"
 }
-// entity 412
+// entity 411
 {
 "classname" "info_teleport_destination"
 "origin" "496 312 736"
 "targetname" "MainHubTopSouthSpawnOne"
 "angle" "90"
 }
-// entity 413
+// entity 412
 {
 "classname" "info_teleport_destination"
 "origin" "336 312 736"
 "targetname" "MainHubTopSouthSpawnTwo"
 "angle" "90"
 }
-// entity 414
+// entity 413
 {
 "classname" "info_teleport_destination"
 "origin" "928 1088 736"
 "targetname" "MainHubTopSpawnEastOne"
 "angle" "180"
 }
-// entity 415
+// entity 414
 {
 "classname" "info_teleport_destination"
 "origin" "928 944 736"
 "targetname" "MainHubTopSpawnEastTwo"
 "angle" "180"
 }
-// entity 416
+// entity 415
 {
 "classname" "trigger_teleport"
 "targetname" "FinalWaveOne"
@@ -25302,13 +25286,13 @@
 ( 1560 560 1216 ) ( 1560 576 1208 ) ( 1560 560 1208 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 417
+// entity 416
 {
 "classname" "monster_enforcer"
 "origin" "1912 872 1232"
 "target" "FinalWaveThreeCounter"
 }
-// entity 418
+// entity 417
 {
 "classname" "trigger_teleport"
 "targetname" "FinalWaveOne"
@@ -25323,7 +25307,7 @@
 ( 1560 504 1216 ) ( 1560 520 1208 ) ( 1560 504 1208 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 419
+// entity 418
 {
 "classname" "trigger_teleport"
 "targetname" "FinalWaveOne"
@@ -25338,7 +25322,7 @@
 ( 1560 456 1216 ) ( 1560 472 1208 ) ( 1560 456 1208 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 420
+// entity 419
 {
 "classname" "trigger_teleport"
 "targetname" "FinalWaveOne"
@@ -25353,19 +25337,19 @@
 ( 1560 352 1216 ) ( 1560 368 1208 ) ( 1560 352 1208 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 421
+// entity 420
 {
 "classname" "info_teleport_destination"
 "origin" "520 1688 808"
 "targetname" "MainHubTopNorthSpawnOne"
 }
-// entity 422
+// entity 421
 {
 "classname" "info_teleport_destination"
 "origin" "376 1688 808"
 "targetname" "MainHubTopNorthSpawnTwo"
 }
-// entity 423
+// entity 422
 {
 "classname" "trigger_teleport"
 "targetname" "FinalWaveOne"
@@ -25380,7 +25364,7 @@
 ( 1560 296 1216 ) ( 1560 312 1208 ) ( 1560 296 1208 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 424
+// entity 423
 {
 "classname" "trigger_teleport"
 "targetname" "FinalWaveOne"
@@ -25395,7 +25379,7 @@
 ( 1560 248 1216 ) ( 1560 264 1208 ) ( 1560 248 1208 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 425
+// entity 424
 {
 "classname" "trigger_counter"
 "origin" "1504 520 1320"
@@ -25405,14 +25389,14 @@
 "target" "FinalWaveTwo"
 "message" "Two more..."
 }
-// entity 426
+// entity 425
 {
 "classname" "trigger_relay"
 "origin" "1984 560 1304"
 "targetname" "FinalWaveTwo"
 "target" "SpawnWaveTwo"
 }
-// entity 427
+// entity 426
 {
 "classname" "trigger_counter"
 "origin" "1984 496 1296"
@@ -25421,7 +25405,7 @@
 "target" "FinalWaveThree"
 "spawnflags" "1"
 }
-// entity 428
+// entity 427
 {
 "classname" "trigger_teleport"
 "targetname" "SpawnWaveTwo"
@@ -25436,7 +25420,7 @@
 ( 1936 560 1216 ) ( 1936 576 1208 ) ( 1936 560 1208 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 429
+// entity 428
 {
 "classname" "trigger_teleport"
 "targetname" "SpawnWaveTwo"
@@ -25451,7 +25435,7 @@
 ( 1936 504 1216 ) ( 1936 520 1208 ) ( 1936 504 1208 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 430
+// entity 429
 {
 "classname" "trigger_teleport"
 "targetname" "SpawnWaveTwo"
@@ -25466,7 +25450,7 @@
 ( 1936 440 1216 ) ( 1936 456 1208 ) ( 1936 440 1208 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 431
+// entity 430
 {
 "classname" "trigger_relay"
 "origin" "1984 416 1304"
@@ -25474,7 +25458,7 @@
 "target" "SpawnWaveTwoTwo"
 "delay" "4"
 }
-// entity 432
+// entity 431
 {
 "classname" "trigger_teleport"
 "targetname" "SpawnWaveTwoTwo"
@@ -25489,7 +25473,7 @@
 ( 1936 272 1216 ) ( 1936 288 1208 ) ( 1936 272 1208 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 433
+// entity 432
 {
 "classname" "trigger_teleport"
 "targetname" "SpawnWaveTwoTwo"
@@ -25504,26 +25488,26 @@
 ( 1936 192 1216 ) ( 1936 208 1208 ) ( 1936 192 1208 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 434
+// entity 433
 {
 "classname" "monster_army"
 "origin" "1728 928 1232"
 "target" "FinalWaveThreeCounter"
 }
-// entity 435
+// entity 434
 {
 "classname" "monster_army"
 "origin" "1768 928 1232"
 "target" "FinalWaveThreeCounter"
 }
-// entity 436
+// entity 435
 {
 "classname" "trigger_relay"
 "origin" "1592 984 1304"
 "targetname" "FinalWaveThree"
 "target" "SpawnWaveThreeGrunts"
 }
-// entity 437
+// entity 436
 {
 "classname" "trigger_counter"
 "origin" "1664 984 1304"
@@ -25532,7 +25516,7 @@
 "targetname" "FinalWaveThreeCounter"
 "killtarget" "FinalGate"
 }
-// entity 438
+// entity 437
 {
 "classname" "trigger_teleport"
 "targetname" "SpawnWaveThreeGrunts"
@@ -25547,7 +25531,7 @@
 ( 1576 928 1216 ) ( 1576 944 1208 ) ( 1576 928 1208 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 439
+// entity 438
 {
 "classname" "trigger_teleport"
 "targetname" "SpawnWaveThreeGrunts"
@@ -25562,7 +25546,7 @@
 ( 1632 928 1216 ) ( 1632 944 1208 ) ( 1632 928 1208 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 440
+// entity 439
 {
 "classname" "trigger_teleport"
 "targetname" "SpawnWaveThreeGrunts"
@@ -25577,7 +25561,7 @@
 ( 1680 928 1216 ) ( 1680 944 1208 ) ( 1680 928 1208 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 441
+// entity 440
 {
 "classname" "trigger_teleport"
 "targetname" "SpawnWaveThreeGrunts"
@@ -25592,7 +25576,7 @@
 ( 1736 928 1216 ) ( 1736 944 1208 ) ( 1736 928 1208 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 442
+// entity 441
 {
 "classname" "trigger_teleport"
 "targetname" "SpawnWaveThreeGrunts"
@@ -25607,7 +25591,7 @@
 ( 1776 928 1216 ) ( 1776 944 1208 ) ( 1776 928 1208 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 443
+// entity 442
 {
 "classname" "trigger_teleport"
 "targetname" "SpawnWaveThreeGrunts"
@@ -25622,7 +25606,7 @@
 ( 1920 928 1216 ) ( 1920 944 1208 ) ( 1920 928 1208 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 444
+// entity 443
 {
 "classname" "trigger_teleport"
 "targetname" "SpawnWaveThreeGrunts"
@@ -25637,7 +25621,7 @@
 ( 1960 928 1216 ) ( 1960 944 1208 ) ( 1960 928 1208 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 445
+// entity 444
 {
 "classname" "trigger_teleport"
 "targetname" "SpawnWaveThreeThree"
@@ -25652,7 +25636,7 @@
 ( 1912 856 1216 ) ( 1912 872 1208 ) ( 1912 856 1208 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 446
+// entity 445
 {
 "classname" "trigger_relay"
 "origin" "1984 840 1272"
@@ -25660,7 +25644,7 @@
 "target" "SpawnWaveThreeThree"
 "delay" "2"
 }
-// entity 447
+// entity 446
 {
 "classname" "trigger_teleport"
 "targetname" "SpawnWaveThreeThree"
@@ -25675,7 +25659,7 @@
 ( 1768 824 1216 ) ( 1768 840 1208 ) ( 1768 824 1208 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 448
+// entity 447
 {
 "classname" "trigger_teleport"
 "targetname" "SpawnWaveThreeThree"
@@ -25690,7 +25674,7 @@
 ( 1688 824 1216 ) ( 1688 840 1208 ) ( 1688 824 1208 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 449
+// entity 448
 {
 "classname" "trigger_teleport"
 "targetname" "SpawnWaveThreeThree"
@@ -25705,7 +25689,7 @@
 ( 1608 824 1216 ) ( 1608 840 1208 ) ( 1608 824 1208 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 450
+// entity 449
 {
 "classname" "func_train"
 "targetname" "PuzzleGateClose"
@@ -25810,35 +25794,35 @@
 ( -136 1104 848 ) ( -136 1112 704 ) ( -136 1104 704 ) 32_brown_3 0 0 0 1 1
 }
 }
-// entity 451
+// entity 450
 {
 "classname" "path_corner"
 "origin" "-144 944 760"
 "targetname" "TPPuzzlePathOne"
 "target" "TPPuzzlePathTwo"
 }
-// entity 452
+// entity 451
 {
 "classname" "path_corner"
 "origin" "-136 944 512"
 "targetname" "TPPuzzlePathTwo"
 "target" "TPPuzzlePathThree"
 }
-// entity 453
+// entity 452
 {
 "classname" "path_corner"
 "origin" "-136 944 512"
 "targetname" "TPPuzzlePathThree"
 "target" "TPPuzzlePathTwo"
 }
-// entity 454
+// entity 453
 {
 "classname" "trigger_relay"
 "origin" "336 264 2344"
 "targetname" "AcidKeyComplete"
 "target" "AcidKeyGateClose"
 }
-// entity 455
+// entity 454
 {
 "classname" "func_train"
 "targetname" "AcidKeyGateClose"
@@ -25907,33 +25891,33 @@
 ( 480 1200 664 ) ( 480 1208 656 ) ( 480 1200 656 ) 32_brown_3 0 0 0 1 1
 }
 }
-// entity 456
+// entity 455
 {
 "classname" "path_corner"
 "origin" "360 1200 656"
 "targetname" "AcidKeyGatePathOne"
 "target" "AcidKeyCompletePathTwo"
 }
-// entity 457
+// entity 456
 {
 "classname" "path_corner"
 "origin" "360 1200 656"
 }
-// entity 458
+// entity 457
 {
 "classname" "path_corner"
 "origin" "352 1208 520"
 "targetname" "AcidKeyCompletePathThree"
 "target" "AcidKeyCompletePathTwo"
 }
-// entity 459
+// entity 458
 {
 "classname" "path_corner"
 "origin" "352 1208 520"
 "targetname" "AcidKeyCompletePathTwo"
 "target" "AcidKeyCompletePathThree"
 }
-// entity 460
+// entity 459
 {
 "classname" "func_train"
 "targetname" "RedRoomCompleteGate"
@@ -26038,40 +26022,40 @@
 ( 976 936 856 ) ( 976 944 712 ) ( 976 936 712 ) 32_brown_3 0 0 0 1 1
 }
 }
-// entity 461
+// entity 460
 {
 "classname" "path_corner"
 "origin" "968 936 512"
 "targetname" "RedRoomCompletePathTwo"
 "target" "RedRoomCompletePathThree"
 }
-// entity 462
+// entity 461
 {
 "classname" "path_corner"
 "origin" "968 936 512"
 "targetname" "RedRoomCompletePathThree"
 "target" "RedRoomCompletePathTwo"
 }
-// entity 463
+// entity 462
 {
 "classname" "path_corner"
 "origin" "968 936 720"
 "targetname" "RedRoomCompletePathOne"
 "target" "RedRoomCompletePathTwo"
 }
-// entity 464
+// entity 463
 {
 "classname" "trigger_relay"
 "origin" "896 1208 2360"
 "targetname" "RedKeyComplete"
 "target" "RedRoomCompleteGate"
 }
-// entity 465
+// entity 464
 {
 "classname" "trigger_relay"
 "origin" "-0 1720 744"
 }
-// entity 466
+// entity 465
 {
 "classname" "trigger_once"
 "message" "does someone challenge me?!"
@@ -26087,58 +26071,52 @@
 ( 496 272 632 ) ( 496 280 512 ) ( 496 272 512 ) 32_brown_3 0 0 0 1 1
 }
 }
-// entity 467
+// entity 466
 {
 "classname" "item_spikes"
 "origin" "176 744 -0"
 }
-// entity 468
+// entity 467
 {
 "classname" "item_spikes"
 "origin" "392 1320 512"
 }
-// entity 469
+// entity 468
 {
 "classname" "item_health"
 "origin" "-64 1776 2216"
 }
-// entity 470
+// entity 469
 {
 "classname" "item_spikes"
 "origin" "-120 1184 2336"
 }
-// entity 471
+// entity 470
 {
 "classname" "item_spikes"
 "origin" "912 3312 -64"
 }
-// entity 472
+// entity 471
 {
 "classname" "item_shells"
 "origin" "-168 -2032 256"
 }
-// entity 473
+// entity 472
 {
 "classname" "item_spikes"
 "origin" "592 3048 512"
 }
-// entity 474
+// entity 473
 {
 "classname" "item_health"
 "origin" "-688 3040 512"
 }
-// entity 475
+// entity 474
 {
 "classname" "item_shells"
 "origin" "616 3608 512"
 }
-// entity 476
-{
-"classname" "info_player_start"
-"origin" "-792 3680 536"
-"angle" "255"
-}
-// entity 477
+// entity 475
 {
 "classname" "trigger_once"
 "target" "BossGate"
@@ -26152,7 +26130,7 @@
 ( -592 3336 880 ) ( -592 3344 752 ) ( -592 3336 752 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 478
+// entity 476
 {
 "classname" "func_train"
 "targetname" "BossGate"
@@ -26357,51 +26335,51 @@
 ( -640 3432 728 ) ( -640 3424 720 ) ( -640 3424 728 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 479
+// entity 477
 {
 "classname" "path_corner"
 "origin" "-880 3424 592"
 "target" "BossGatePathTwo"
 "targetname" "BossGatePathOne"
 }
-// entity 480
+// entity 478
 {
 "classname" "path_corner"
 "origin" "-880 3424 752"
 "target" "BossGatePathThree"
 "targetname" "BossGatePathTwo"
 }
-// entity 481
+// entity 479
 {
 "classname" "path_corner"
 "origin" "-880 3424 752"
 "target" "BossGatePathTwo"
 "targetname" "BossGatePathThree"
 }
-// entity 482
+// entity 480
 {
 "classname" "item_spikes"
 "origin" "416 632 512"
 }
-// entity 483
+// entity 481
 {
 "classname" "monster_shambler"
 "origin" "-2360 2456 1240"
 "target" "SpawnSecondBoss"
 }
-// entity 484
+// entity 482
 {
 "classname" "monster_shambler"
 "origin" "-2360 2560 1240"
 "target" "ThirdBossWaveCounter"
 }
-// entity 485
+// entity 483
 {
 "classname" "monster_shambler"
 "origin" "-2360 2648 1240"
 "target" "ThirdBossWaveCounter"
 }
-// entity 486
+// entity 484
 {
 "classname" "trigger_relay"
 "origin" "-2440 2488 1336"
@@ -26409,7 +26387,7 @@
 "target" "SpawnFirstBoss"
 "delay" "1"
 }
-// entity 487
+// entity 485
 {
 "classname" "trigger_teleport"
 "target" "BossChairDestinationOne"
@@ -26424,14 +26402,14 @@
 ( -2344 2440 1224 ) ( -2344 2456 1216 ) ( -2344 2440 1216 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 488
+// entity 486
 {
 "classname" "info_teleport_destination"
 "origin" "-784 2392 992"
 "angle" "90"
 "targetname" "BossChairDestinationOne"
 }
-// entity 489
+// entity 487
 {
 "classname" "func_train"
 "targetname" "OpenExitTrain"
@@ -26473,93 +26451,93 @@
 ( -624 2240 1232 ) ( -624 2064 1248 ) ( -624 2240 1248 ) 128_cyan_3 0 0 0 1 1
 }
 }
-// entity 490
+// entity 488
 {
 "classname" "info_teleport_destination"
 "origin" "-512 2392 992"
 "angle" "90"
 "targetname" "BossChairDestinationTwo"
 }
-// entity 491
+// entity 489
 {
 "classname" "info_teleport_destination"
 "origin" "-1024 2392 992"
 "angle" "90"
 "targetname" "BossChairDestinationThree"
 }
-// entity 492
+// entity 490
 {
 "classname" "info_teleport_destination"
 "origin" "-1112 2112 984"
 "targetname" "BossPillarDestinationOne"
 }
-// entity 493
+// entity 491
 {
 "classname" "info_teleport_destination"
 "origin" "-440 2112 984"
 "targetname" "BossPillarDestinationTwo"
 }
-// entity 494
+// entity 492
 {
 "classname" "info_teleport_destination"
 "origin" "-1200 2632 952"
 "targetname" "BossRoomDesinationTwo"
 }
-// entity 495
+// entity 493
 {
 "classname" "info_teleport_destination"
 "origin" "-1200 2688 936"
 "targetname" "BossRoomDesinationThree"
 }
-// entity 496
+// entity 494
 {
 "classname" "info_teleport_destination"
 "origin" "-1096 2536 952"
 "targetname" "BossRoomDesinationFour"
 }
-// entity 497
+// entity 495
 {
 "classname" "info_teleport_destination"
 "origin" "-440 2536 944"
 "targetname" "BossRoomDestinationFive"
 }
-// entity 498
+// entity 496
 {
 "classname" "info_teleport_destination"
 "origin" "-336 2616 944"
 "targetname" "BossRoomDestinationSix"
 }
-// entity 499
+// entity 497
 {
 "classname" "info_teleport_destination"
 "origin" "-352 2696 944"
 "targetname" "BossRoomDestinationSeven"
 }
-// entity 500
+// entity 498
 {
 "classname" "info_teleport_destination"
 "origin" "-1088 2904 840"
 "targetname" "BossRoomDestinationEight"
 }
-// entity 501
+// entity 499
 {
 "classname" "info_teleport_destination"
 "origin" "-1208 2984 832"
 "targetname" "BossRoomDestinationNine"
 }
-// entity 502
+// entity 500
 {
 "classname" "info_teleport_destination"
 "origin" "-440 2912 840"
 "targetname" "BossRoomDestinationTen"
 }
-// entity 503
+// entity 501
 {
 "classname" "info_teleport_destination"
 "origin" "-336 2992 840"
 "targetname" "BossRoomDestinationEleven"
 }
-// entity 504
+// entity 502
 {
 "classname" "trigger_relay"
 "origin" "-2112 2384 1344"
@@ -26567,77 +26545,77 @@
 "spawnflags" "1"
 "target" "SpawnSecondBossWave"
 }
-// entity 505
+// entity 503
 {
 "classname" "monster_army"
 "origin" "-1960 2416 1240"
 "targetname" "SpawnSecondBossWave"
 "target" "SecondBossWaveCounter"
 }
-// entity 506
+// entity 504
 {
 "classname" "monster_army"
 "origin" "-2008 2416 1240"
 "targetname" "SpawnSecondBossWave"
 "target" "SecondBossWaveCounter"
 }
-// entity 507
+// entity 505
 {
 "classname" "monster_army"
 "origin" "-2056 2416 1240"
 "targetname" "SpawnSecondBossWave"
 "target" "SecondBossWaveCounter"
 }
-// entity 508
+// entity 506
 {
 "classname" "monster_army"
 "origin" "-2104 2416 1240"
 "targetname" "SpawnSecondBossWave"
 "target" "SecondBossWaveCounter"
 }
-// entity 509
+// entity 507
 {
 "classname" "monster_army"
 "origin" "-2144 2416 1240"
 "targetname" "SpawnSecondBossWave"
 "target" "SecondBossWaveCounter"
 }
-// entity 510
+// entity 508
 {
 "classname" "monster_army"
 "origin" "-2184 2416 1240"
 "targetname" "SpawnSecondBossWave"
 "target" "SecondBossWaveCounter"
 }
-// entity 511
+// entity 509
 {
 "classname" "monster_army"
 "origin" "-2232 2416 1240"
 "targetname" "SpawnSecondBossWave"
 "target" "SecondBossWaveCounter"
 }
-// entity 512
+// entity 510
 {
 "classname" "monster_army"
 "origin" "-2232 2456 1240"
 "targetname" "SpawnSecondBossWave"
 "target" "SecondBossWaveCounter"
 }
-// entity 513
+// entity 511
 {
 "classname" "monster_army"
 "origin" "-2184 2456 1240"
 "targetname" "SpawnSecondBossWave"
 "target" "SecondBossWaveCounter"
 }
-// entity 514
+// entity 512
 {
 "classname" "monster_army"
 "origin" "-2144 2456 1240"
 "targetname" "SpawnSecondBossWave"
 "target" "SecondBossWaveCounter"
 }
-// entity 515
+// entity 513
 {
 "classname" "trigger_counter"
 "origin" "-2016 2384 1352"
@@ -26646,7 +26624,7 @@
 "spawnflags" "1"
 "target" "SpawnThirdBoss"
 }
-// entity 516
+// entity 514
 {
 "classname" "trigger_teleport"
 "targetname" "SpawnSecondBossWave"
@@ -26661,7 +26639,7 @@
 ( -1952 2408 1224 ) ( -1952 2424 1216 ) ( -1952 2408 1216 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 517
+// entity 515
 {
 "classname" "trigger_teleport"
 "targetname" "SpawnSecondBossWave"
@@ -26676,7 +26654,7 @@
 ( -2008 2408 1224 ) ( -2008 2424 1216 ) ( -2008 2408 1216 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 518
+// entity 516
 {
 "classname" "trigger_teleport"
 "targetname" "SpawnSecondBossWave"
@@ -26691,7 +26669,7 @@
 ( -2056 2408 1224 ) ( -2056 2424 1216 ) ( -2056 2408 1216 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 519
+// entity 517
 {
 "classname" "trigger_teleport"
 "targetname" "SpawnSecondBossWave"
@@ -26706,7 +26684,7 @@
 ( -2104 2408 1224 ) ( -2104 2424 1216 ) ( -2104 2408 1216 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 520
+// entity 518
 {
 "classname" "trigger_teleport"
 "targetname" "SpawnSecondBossWave"
@@ -26721,7 +26699,7 @@
 ( -2144 2408 1224 ) ( -2144 2424 1216 ) ( -2144 2408 1216 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 521
+// entity 519
 {
 "classname" "trigger_teleport"
 "targetname" "SpawnSecondBossWave"
@@ -26736,7 +26714,7 @@
 ( -2144 2456 1224 ) ( -2144 2472 1216 ) ( -2144 2456 1216 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 522
+// entity 520
 {
 "classname" "trigger_teleport"
 "targetname" "SpawnSecondBossWave"
@@ -26751,7 +26729,7 @@
 ( -2184 2456 1224 ) ( -2184 2472 1216 ) ( -2184 2456 1216 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 523
+// entity 521
 {
 "classname" "trigger_teleport"
 "targetname" "SpawnSecondBossWave"
@@ -26766,7 +26744,7 @@
 ( -2232 2456 1224 ) ( -2232 2472 1216 ) ( -2232 2456 1216 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 524
+// entity 522
 {
 "classname" "trigger_teleport"
 "targetname" "SpawnSecondBossWave"
@@ -26781,7 +26759,7 @@
 ( -2232 2408 1224 ) ( -2232 2424 1216 ) ( -2232 2408 1216 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 525
+// entity 523
 {
 "classname" "trigger_teleport"
 "targetname" "SpawnSecondBossWave"
@@ -26796,14 +26774,14 @@
 ( -2184 2408 1224 ) ( -2184 2424 1216 ) ( -2184 2408 1216 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 526
+// entity 524
 {
 "classname" "trigger_relay"
 "origin" "-2440 2664 1312"
 "targetname" "SpawnThirdBoss"
 "target" "SpawnThirdBossWave"
 }
-// entity 527
+// entity 525
 {
 "classname" "trigger_teleport"
 "target" "BossChairDestinationTwo"
@@ -26818,7 +26796,7 @@
 ( -2344 2552 1224 ) ( -2344 2568 1216 ) ( -2344 2552 1216 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 528
+// entity 526
 {
 "classname" "trigger_teleport"
 "target" "BossChairDestinationThree"
@@ -26833,7 +26811,7 @@
 ( -2344 2640 1224 ) ( -2344 2656 1216 ) ( -2344 2640 1216 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 529
+// entity 527
 {
 "classname" "monster_army"
 "origin" "-2264 2768 1240"
@@ -26841,7 +26819,7 @@
 "targetname" "SpawnThirdBossWave"
 "target" "ThirdBossWaveCounter"
 }
-// entity 530
+// entity 528
 {
 "classname" "monster_army"
 "origin" "-2216 2768 1240"
@@ -26849,7 +26827,7 @@
 "targetname" "SpawnThirdBossWave"
 "target" "ThirdBossWaveCounter"
 }
-// entity 531
+// entity 529
 {
 "classname" "monster_army"
 "origin" "-2176 2768 1240"
@@ -26857,7 +26835,7 @@
 "targetname" "SpawnThirdBossWave"
 "target" "ThirdBossWaveCounter"
 }
-// entity 532
+// entity 530
 {
 "classname" "monster_army"
 "origin" "-2136 2768 1240"
@@ -26865,7 +26843,7 @@
 "targetname" "SpawnThirdBossWave"
 "target" "ThirdBossWaveCounter"
 }
-// entity 533
+// entity 531
 {
 "classname" "monster_army"
 "origin" "-2096 2768 1240"
@@ -26873,7 +26851,7 @@
 "targetname" "SpawnThirdBossWave"
 "target" "ThirdBossWaveCounter"
 }
-// entity 534
+// entity 532
 {
 "classname" "monster_army"
 "origin" "-2056 2768 1240"
@@ -26881,7 +26859,7 @@
 "targetname" "SpawnThirdBossWave"
 "target" "ThirdBossWaveCounter"
 }
-// entity 535
+// entity 533
 {
 "classname" "monster_army"
 "origin" "-2008 2768 1240"
@@ -26889,7 +26867,7 @@
 "targetname" "SpawnThirdBossWave"
 "target" "ThirdBossWaveCounter"
 }
-// entity 536
+// entity 534
 {
 "classname" "trigger_counter"
 "origin" "-2136 2800 1328"
@@ -26897,7 +26875,7 @@
 "count" "9"
 "target" "OpenExit"
 }
-// entity 537
+// entity 535
 {
 "classname" "trigger_teleport"
 "targetname" "SpawnThirdBossWave"
@@ -26912,7 +26890,7 @@
 ( -2248 2760 1224 ) ( -2248 2776 1216 ) ( -2248 2760 1216 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 538
+// entity 536
 {
 "classname" "trigger_teleport"
 "targetname" "SpawnThirdBossWave"
@@ -26927,7 +26905,7 @@
 ( -2200 2760 1224 ) ( -2200 2776 1216 ) ( -2200 2760 1216 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 539
+// entity 537
 {
 "classname" "trigger_teleport"
 "targetname" "SpawnThirdBossWave"
@@ -26942,7 +26920,7 @@
 ( -2160 2760 1224 ) ( -2160 2776 1216 ) ( -2160 2760 1216 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 540
+// entity 538
 {
 "classname" "trigger_teleport"
 "targetname" "SpawnThirdBossWave"
@@ -26957,7 +26935,7 @@
 ( -2128 2760 1224 ) ( -2128 2776 1216 ) ( -2128 2760 1216 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 541
+// entity 539
 {
 "classname" "trigger_teleport"
 "targetname" "SpawnThirdBossWave"
@@ -26972,7 +26950,7 @@
 ( -2080 2760 1224 ) ( -2080 2776 1216 ) ( -2080 2760 1216 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 542
+// entity 540
 {
 "classname" "trigger_teleport"
 "targetname" "SpawnThirdBossWave"
@@ -26987,7 +26965,7 @@
 ( -2040 2760 1224 ) ( -2040 2776 1216 ) ( -2040 2760 1216 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 543
+// entity 541
 {
 "classname" "trigger_teleport"
 "targetname" "SpawnThirdBossWave"
@@ -27002,35 +26980,35 @@
 ( -1984 2760 1224 ) ( -1984 2776 1216 ) ( -1984 2760 1216 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 544
+// entity 542
 {
 "classname" "trigger_relay"
 "origin" "-2024 2800 1352"
 "targetname" "OpenExit"
 "target" "OpenExitTrain"
 }
-// entity 545
+// entity 543
 {
 "classname" "path_corner"
 "origin" "-928 2048 944"
 "target" "BossChairPathTwo"
 "targetname" "BossChairPathOne"
 }
-// entity 546
+// entity 544
 {
 "classname" "path_corner"
 "origin" "-928 2240 944"
 "target" "BossChairPathThree"
 "targetname" "BossChairPathTwo"
 }
-// entity 547
+// entity 545
 {
 "classname" "path_corner"
 "origin" "-928 2240 944"
 "target" "BossChairPathTwo"
 "targetname" "BossChairPathThree"
 }
-// entity 548
+// entity 546
 {
 "classname" "trigger_monsterjump"
 "height" "100"
@@ -27046,7 +27024,7 @@
 ( -256 2488 952 ) ( -256 2496 944 ) ( -256 2488 944 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 549
+// entity 547
 {
 "classname" "trigger_monsterjump"
 "height" "100"
@@ -27062,7 +27040,7 @@
 ( -256 2568 920 ) ( -256 2576 912 ) ( -256 2568 912 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 550
+// entity 548
 {
 "classname" "trigger_monsterjump"
 "height" "100"
@@ -27078,7 +27056,7 @@
 ( -256 2728 856 ) ( -256 2736 848 ) ( -256 2728 848 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 551
+// entity 549
 {
 "classname" "trigger_monsterjump"
 "height" "100"
@@ -27094,7 +27072,7 @@
 ( -256 2648 888 ) ( -256 2656 880 ) ( -256 2648 880 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 552
+// entity 550
 {
 "classname" "trigger_monsterjump"
 "height" "100"
@@ -27110,7 +27088,7 @@
 ( -256 2888 792 ) ( -256 2896 784 ) ( -256 2888 784 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 553
+// entity 551
 {
 "classname" "trigger_monsterjump"
 "height" "100"
@@ -27126,88 +27104,107 @@
 ( -256 2808 824 ) ( -256 2816 816 ) ( -256 2808 816 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 554
+// entity 552
 {
 "classname" "item_rockets"
 "origin" "-448 3384 752"
 }
-// entity 555
+// entity 553
 {
 "classname" "item_rockets"
 "origin" "-1112 3144 752"
 }
-// entity 556
+// entity 554
 {
 "classname" "item_health"
 "origin" "-456 2760 816"
 }
-// entity 557
+// entity 555
 {
 "classname" "item_rockets"
 "origin" "-1128 2512 912"
 }
-// entity 558
+// entity 556
 {
 "classname" "item_health"
 "origin" "-336 2992 752"
 }
-// entity 559
+// entity 557
 {
 "classname" "item_rockets"
 "origin" "-32 2952 512"
 }
-// entity 560
+// entity 558
 {
 "classname" "item_rockets"
 "origin" "-456 3720 512"
 }
-// entity 561
+// entity 559
 {
 "classname" "item_armor2"
 "origin" "-672 2952 512"
 }
-// entity 562
+// entity 560
 {
 "classname" "item_health"
 "origin" "-1120 3376 752"
 }
-// entity 563
+// entity 561
 {
 "classname" "item_rockets"
 "origin" "-1216 2672 848"
 }
-// entity 564
+// entity 562
 {
 "classname" "item_health"
 "origin" "-480 2520 912"
 }
-// entity 565
+// entity 563
 {
 "classname" "item_shells"
 "origin" "-456 3136 752"
 }
-// entity 566
+// entity 564
 {
 "classname" "item_spikes"
 "origin" "-1112 2784 816"
 }
-// entity 567
+// entity 565
 {
 "classname" "item_health"
 "origin" "-1128 2360 944"
 }
-// entity 568
+// entity 566
 {
 "classname" "item_rockets"
 "origin" "-464 2328 944"
 }
-// entity 569
+// entity 567
 {
 "classname" "item_health"
 "origin" "-440 2096 944"
 }
-// entity 570
+// entity 568
 {
 "classname" "item_rockets"
 "origin" "-1136 2096 944"
+}
+// entity 569
+{
+"classname" "info_intermission"
+"origin" "-768 2251 1288"
+"mangle" "22 89 0"
+}
+// entity 570
+{
+"classname" "info_player_start"
+"origin" "-248 -3568 -192"
+"angle" "300"
+}
+// entity 571
+{
+"classname" "trigger_relay"
+"origin" "-64 1232 2344"
+"targetname" "NewPlatCorner"
+"target" "BlueTeleport"
 }

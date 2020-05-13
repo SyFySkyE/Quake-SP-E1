@@ -19784,20 +19784,20 @@
 }
 // brush 2138
 {
-( 1368 2680 80 ) ( 1368 2704 88 ) ( 1376 2680 152 ) 128_cyan_3 -13.5125 -0 0 1 1
-( 1376 2680 152 ) ( 1376 2656 104 ) ( 1368 2680 80 ) 128_cyan_3 -13.5125 -0 0 1 1
-( 1368 2680 80 ) ( 1376 2656 104 ) ( 1376 2664 80 ) 128_cyan_3 -110.512 -0 0 1 1
-( 1376 2664 80 ) ( 1376 2656 104 ) ( 1528 2584 104 ) 128_cyan_3 3.57727 -52.4717 0 1 1
-( 1528 2584 104 ) ( 1376 2656 104 ) ( 1376 2680 152 ) 128_cyan_3 -48.9706 -55.0293 0 1 1
-( 1528 2584 104 ) ( 1536 2600 80 ) ( 1376 2664 80 ) 128_cyan_3 3.57727 120.926 0 1 1
-( 1376 2680 152 ) ( 1552 2624 152 ) ( 1528 2584 104 ) 128_cyan_3 61.6178 57.9773 0 1 1
+( 1384 2680 152 ) ( 1376 2680 80 ) ( 1376 2704 88 ) 128_cyan_3 -13.5125 -0 0 1 1
+( 1384 2656 104 ) ( 1376 2680 80 ) ( 1384 2680 152 ) 128_cyan_3 -13.5125 -0 0 1 1
+( 1384 2664 80 ) ( 1376 2680 80 ) ( 1384 2656 104 ) 128_cyan_3 -110.512 -0 0 1 1
+( 1528 2584 104 ) ( 1384 2664 80 ) ( 1384 2656 104 ) 128_cyan_3 3.57727 -52.4717 0 1 1
+( 1384 2656 104 ) ( 1384 2680 152 ) ( 1528 2584 104 ) 128_cyan_3 -48.9706 -55.0293 0 1 1
+( 1528 2584 104 ) ( 1536 2600 80 ) ( 1384 2664 80 ) 128_cyan_3 3.57727 120.926 0 1 1
+( 1528 2584 104 ) ( 1384 2680 152 ) ( 1552 2624 152 ) 128_cyan_3 61.6178 118.829 0 1 1
 ( 1528 2584 104 ) ( 1552 2592 88 ) ( 1536 2600 80 ) 128_cyan_3 3.57727 120.926 0 1 1
 ( 1536 2600 80 ) ( 1552 2592 88 ) ( 1544 2600 80 ) 128_cyan_3 47.4314 64.5754 0 1 1
-( 1536 2600 80 ) ( 1544 2600 80 ) ( 1552 2624 80 ) 128_cyan_3 116.402 62.3433 0 1 1
-( 1552 2624 80 ) ( 1368 2704 88 ) ( 1368 2680 80 ) 128_cyan_3 116.402 62.3433 0 1 1
-( 1552 2624 80 ) ( 1544 2640 88 ) ( 1368 2704 88 ) 128_cyan_3 116.402 62.3433 0 1 1
-( 1368 2704 88 ) ( 1552 2624 152 ) ( 1376 2680 152 ) 128_cyan_3 -41.7095 -28.4021 0 1 1
-( 1368 2704 88 ) ( 1544 2640 88 ) ( 1552 2624 152 ) 128_cyan_3 -41.7095 -28.4021 0 1 1
+( 1384 2664 80 ) ( 1536 2600 80 ) ( 1544 2600 80 ) 128_cyan_3 116.402 62.3433 0 1 1
+( 1376 2704 88 ) ( 1376 2680 80 ) ( 1552 2624 80 ) 128_cyan_3 116.402 62.3433 0 1 1
+( 1552 2624 80 ) ( 1544 2640 88 ) ( 1376 2704 88 ) 128_cyan_3 116.402 62.3433 0 1 1
+( 1552 2624 152 ) ( 1384 2680 152 ) ( 1376 2704 88 ) 128_cyan_3 -41.7095 -28.4021 0 1 1
+( 1376 2704 88 ) ( 1544 2640 88 ) ( 1552 2624 152 ) 128_cyan_3 -41.7095 -28.4021 0 1 1
 ( 1552 2624 152 ) ( 1552 2592 88 ) ( 1528 2584 104 ) 128_cyan_3 -0 -0 0 1 1
 ( 1544 2600 80 ) ( 1552 2592 88 ) ( 1552 2624 80 ) 128_cyan_3 91.4768 115.477 0 1 1
 ( 1552 2624 152 ) ( 1544 2640 88 ) ( 1552 2624 80 ) 128_cyan_3 -104 -0 0 1 1
@@ -20109,7 +20109,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Lava Trap"
-"_tb_id" "88"
+"_tb_id" "102"
 // brush 0
 {
 ( -1056 1016 80 ) ( -1056 896 88 ) ( -1056 896 80 ) *lavaskip 0 0 0 1 1
@@ -20124,7 +20124,7 @@
 {
 "classname" "trigger_teleport"
 "target" "tp1"
-"_tb_group" "88"
+"_tb_group" "102"
 // brush 0
 {
 ( -1056 1016 79 ) ( -1056 896 87 ) ( -1056 896 79 ) *lavaskip 0 0 0 1 1
@@ -20897,13 +20897,13 @@
 // entity 80
 {
 "classname" "monster_army"
-"origin" "1800 2784 576"
+"origin" "1800 2688 576"
 "target" "GateThreeCounter"
 }
 // entity 81
 {
 "classname" "monster_army"
-"origin" "1776 2784 360"
+"origin" "1656 2712 360"
 "target" "GateFourCounter"
 }
 // entity 82
@@ -20911,7 +20911,7 @@
 "classname" "monster_army"
 "origin" "2320 2936 360"
 "target" "RedFinalGateRoomFirst"
-"delay" "2"
+"delay" "0"
 }
 // entity 83
 {
@@ -21047,6 +21047,7 @@
 "targetname" "GateTwoCounter"
 "killtarget" "GateTwo"
 "message" "  "
+"count" "3"
 }
 // entity 87
 {
@@ -21112,7 +21113,7 @@
 "classname" "trigger_counter"
 "origin" "1592 2664 560"
 "killtarget" "GateThree"
-"count" "1"
+"count" "3"
 "targetname" "GateThreeCounter"
 "message" "  "
 }
@@ -21179,7 +21180,7 @@
 {
 "classname" "trigger_counter"
 "origin" "1896 2768 376"
-"count" "1"
+"count" "4"
 "targetname" "GateFourCounter"
 "killtarget" "GateFour"
 "message" "  "
@@ -21188,13 +21189,15 @@
 {
 "classname" "monster_army"
 "origin" "2472 2408 352"
-"target" "GateFiveCounter"
+"target" "RedFinalGateSpawnTwo"
+"delay" "1"
 }
 // entity 92
 {
 "classname" "monster_army"
 "origin" "2616 2400 352"
 "target" "RedFinalGateRoomSecond"
+"delay" "1"
 }
 // entity 93
 {
@@ -24699,8 +24702,8 @@
 // entity 382
 {
 "classname" "trigger_teleport"
-"target" "RedFinalGateRoom"
-"targetname" "RedFinalGateRoomSecond"
+"target" "RedFinalGateRoomThree"
+"targetname" "RedFinalGateSpawnThree"
 // brush 0
 {
 ( 2392 2368 360 ) ( 2392 2352 352 ) ( 2392 2368 352 ) 128_blood_2 0 0 0 1 1
@@ -24720,8 +24723,8 @@
 // entity 384
 {
 "classname" "trigger_teleport"
-"target" "RedFinalGateRoom"
-"targetname" "RedFinalGateRoomSecond"
+"target" "RedFinalGateRoomTwo"
+"targetname" "RedFinalGateSpawnTwo"
 // brush 0
 {
 ( 2456 2344 360 ) ( 2456 2328 352 ) ( 2456 2344 352 ) 128_blood_2 0 0 0 1 1
@@ -24736,5 +24739,51 @@
 {
 "classname" "monster_army"
 "origin" "2472 2344 352"
-"target" "GateFiveCounter"
+"target" "RedFinalGateSpawnThree"
+"delay" "1"
+}
+// entity 386
+{
+"classname" "info_player_start"
+"origin" "2400 1800 576"
+"angle" "90"
+}
+// entity 387
+{
+"classname" "monster_army"
+"origin" "2232 2896 576"
+"target" "GateTwoCounter"
+}
+// entity 388
+{
+"classname" "monster_army"
+"origin" "1808 2904 576"
+"target" "GateThreeCounter"
+}
+// entity 389
+{
+"classname" "monster_army"
+"origin" "1664 2824 576"
+"target" "GateThreeCounter"
+}
+// entity 390
+{
+"classname" "monster_army"
+"origin" "1632 2904 360"
+"target" "GateFourCounter"
+"angle" "285"
+}
+// entity 391
+{
+"classname" "monster_army"
+"origin" "1744 2864 360"
+"target" "GateFourCounter"
+"angle" "240"
+}
+// entity 392
+{
+"classname" "monster_army"
+"origin" "1752 2968 360"
+"target" "GateFourCounter"
+"angle" "255"
 }

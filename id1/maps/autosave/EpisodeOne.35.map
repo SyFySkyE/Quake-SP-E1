@@ -20470,7 +20470,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Lava Trap"
-"_tb_id" "273"
+"_tb_id" "275"
 // brush 0
 {
 ( -1056 1016 80 ) ( -1056 896 88 ) ( -1056 896 80 ) *lavaskip 0 0 0 1 1
@@ -20485,7 +20485,7 @@
 {
 "classname" "trigger_teleport"
 "target" "tp1"
-"_tb_group" "273"
+"_tb_group" "275"
 // brush 0
 {
 ( -1056 1016 79 ) ( -1056 896 87 ) ( -1056 896 79 ) *lavaskip 0 0 0 1 1

@@ -20470,7 +20470,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Lava Trap"
-"_tb_id" "264"
+"_tb_id" "266"
 // brush 0
 {
 ( -1056 1016 80 ) ( -1056 896 88 ) ( -1056 896 80 ) *lavaskip 0 0 0 1 1
@@ -20485,7 +20485,7 @@
 {
 "classname" "trigger_teleport"
 "target" "tp1"
-"_tb_group" "264"
+"_tb_group" "266"
 // brush 0
 {
 ( -1056 1016 79 ) ( -1056 896 87 ) ( -1056 896 79 ) *lavaskip 0 0 0 1 1
@@ -24201,7 +24201,7 @@
 {
 "classname" "trigger_relay"
 "origin" "-192 2168 624"
-"targetname" "SpawnHubKnight"
+"targetname" "HubWizardSecondSpawn"
 "target" "HubKnightSpawnOne"
 }
 // entity 301
@@ -24236,7 +24236,7 @@
 {
 "classname" "trigger_relay"
 "origin" "-272 2168 624"
-"targetname" "SpawnHubKnight"
+"targetname" "HubWizardSecondSpawn"
 "target" "HubKnightSpawnTwo"
 "delay" "2"
 }
@@ -24757,7 +24757,7 @@
 // entity 340
 {
 "classname" "monster_army"
-"origin" "2240 3264 104"
+"origin" "2168 2896 104"
 "targetname" "RedRoomGrunts"
 "target" "FInalRedCounter"
 }

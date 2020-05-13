@@ -16184,12 +16184,12 @@
 }
 // brush 1756
 {
-( -720 -1288 552 ) ( -720 -1296 648 ) ( -720 -1296 552 ) sky1 0 0 0 1 1
-( 408 -1296 552 ) ( -720 -1296 648 ) ( 408 -1296 648 ) sky1 0 0 0 1 1
-( 408 -1296 248 ) ( -720 -1288 248 ) ( -720 -1296 248 ) sky1 0 0 0 1 1
-( -720 -1296 648 ) ( 408 -1288 648 ) ( 408 -1296 648 ) sky1 0 0 0 1 1
-( 408 -1288 552 ) ( -720 -1288 648 ) ( -720 -1288 552 ) sky1 0 0 0 1 1
-( -256 -1288 552 ) ( -256 -1296 552 ) ( -256 -1296 680 ) sky1 0 0 0 1 1
+( -720 -1336 552 ) ( -720 -1344 648 ) ( -720 -1344 552 ) sky1 0 0 0 1 1
+( 408 -1344 552 ) ( -720 -1344 648 ) ( 408 -1344 648 ) sky1 0 0 0 1 1
+( 408 -1344 248 ) ( -720 -1336 248 ) ( -720 -1344 248 ) sky1 0 0 0 1 1
+( -720 -1344 648 ) ( 408 -1336 648 ) ( 408 -1344 648 ) sky1 0 0 0 1 1
+( 408 -1336 552 ) ( -720 -1336 648 ) ( -720 -1336 552 ) sky1 0 0 0 1 1
+( -256 -1336 552 ) ( -256 -1344 552 ) ( -256 -1344 680 ) sky1 0 0 0 1 1
 }
 // brush 1757
 {
@@ -16202,12 +16202,12 @@
 }
 // brush 1758
 {
-( 32 -1288 552 ) ( 32 -1296 680 ) ( 32 -1296 552 ) sky1 0 0 0 1 1
-( 408 -1296 552 ) ( -720 -1296 648 ) ( 408 -1296 648 ) sky1 0 0 0 1 1
-( 408 -1296 256 ) ( -720 -1288 256 ) ( -720 -1296 256 ) sky1 0 0 0 1 1
-( -720 -1296 648 ) ( 408 -1288 648 ) ( 408 -1296 648 ) sky1 0 0 0 1 1
-( 408 -1288 552 ) ( -720 -1288 648 ) ( -720 -1288 552 ) sky1 0 0 0 1 1
-( 408 -1296 552 ) ( 408 -1288 648 ) ( 408 -1288 552 ) sky1 0 0 0 1 1
+( 32 -1352 552 ) ( 32 -1360 680 ) ( 32 -1360 552 ) sky1 0 0 0 1 1
+( 408 -1360 552 ) ( -720 -1360 648 ) ( 408 -1360 648 ) sky1 0 0 0 1 1
+( 408 -1360 416 ) ( -720 -1352 416 ) ( -720 -1360 416 ) sky1 0 0 0 1 1
+( -720 -1360 648 ) ( 408 -1352 648 ) ( 408 -1360 648 ) sky1 0 0 0 1 1
+( 408 -1352 552 ) ( -720 -1352 648 ) ( -720 -1352 552 ) sky1 0 0 0 1 1
+( 408 -1360 552 ) ( 408 -1352 648 ) ( 408 -1352 552 ) sky1 0 0 0 1 1
 }
 // brush 1759
 {
@@ -20491,7 +20491,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Lava Trap"
-"_tb_id" "35"
+"_tb_id" "6"
 // brush 0
 {
 ( -1056 1016 80 ) ( -1056 896 88 ) ( -1056 896 80 ) *lavaskip 0 0 0 1 1
@@ -20506,7 +20506,7 @@
 {
 "classname" "trigger_teleport"
 "target" "tp1"
-"_tb_group" "35"
+"_tb_group" "6"
 // brush 0
 {
 ( -1056 1016 79 ) ( -1056 896 87 ) ( -1056 896 79 ) *lavaskip 0 0 0 1 1
@@ -22623,7 +22623,6 @@
 "classname" "monster_wizard"
 "origin" "-2240 2776 200"
 "target" "AcidRoomTeleportLastWizards"
-"targetname" "AcidRoomTeleportMonsters"
 }
 // entity 177
 {
@@ -23193,14 +23192,14 @@
 // entity 218
 {
 "classname" "info_teleport_destination"
-"origin" "-384 -1384 584"
+"origin" "-384 -1400 584"
 "angle" "270"
 "targetname" "TopWallSpawnOne"
 }
 // entity 219
 {
 "classname" "info_teleport_destination"
-"origin" "80 -1384 584"
+"origin" "80 -1400 584"
 "angle" "270"
 "targetname" "TopWallSpawnTwo"
 }
@@ -24436,12 +24435,14 @@
 "classname" "monster_army"
 "origin" "-2272 3056 200"
 "angle" "270"
+"targetname" "AcidRoomGruntOne"
 }
 // entity 328
 {
 "classname" "monster_army"
 "origin" "-2200 3056 200"
 "angle" "270"
+"targetname" "AcidRoomGruntTwo"
 }
 // entity 329
 {
@@ -24490,7 +24491,7 @@
 "targetname" "FinalAcidRoomWaveTrigger"
 "count" "1"
 "spawnflags" "1"
-"delay" "2"
+"delay" "1"
 "target" "AcidRoomGruntTwo"
 }
 // entity 333
@@ -27369,29 +27370,24 @@
 }
 // entity 577
 {
-"classname" "info_player_start"
-"origin" "1160 2944 -40"
-}
-// entity 578
-{
 "classname" "trigger_relay"
 "origin" "-1536 2904 -72"
 "targetname" "AcidRoomTeleportMonsters"
 "killtarget" "AcidPlatformsBeforeEnd"
 }
-// entity 579
+// entity 578
 {
 "classname" "info_teleport_destination"
 "origin" "1184 2432 256"
 "targetname" "AcidRoomTwoTopDestination"
 }
-// entity 580
+// entity 579
 {
 "classname" "info_teleport_destination"
 "origin" "1152 2800 -40"
 "targetname" "AcidRoomTwoBottom"
 }
-// entity 581
+// entity 580
 {
 "classname" "trigger_teleport"
 "targetname" "AcidRoomTwoTopTeleport"
@@ -27406,7 +27402,7 @@
 ( 600 2360 40 ) ( 600 2376 32 ) ( 600 2360 32 ) 128_blue_3 0 0 0 1 1
 }
 }
-// entity 582
+// entity 581
 {
 "classname" "trigger_teleport"
 "targetname" "TeleportAcidRoomTwoTop"
@@ -27421,14 +27417,14 @@
 ( 648 2288 40 ) ( 648 2304 32 ) ( 648 2288 32 ) 128_blue_3 0 0 0 1 1
 }
 }
-// entity 583
+// entity 582
 {
 "classname" "trigger_relay"
 "origin" "672 2352 80"
 "targetname" "OnAcidPuzzleTwo"
 "target" "TeleportAcidRoomTwoTop"
 }
-// entity 584
+// entity 583
 {
 "classname" "trigger_relay"
 "origin" "672 2376 80"
@@ -27436,37 +27432,37 @@
 "target" "AcidRoomTwoTopTeleport"
 "delay" "1"
 }
-// entity 585
+// entity 584
 {
 "classname" "monster_army"
 "origin" "688 3200 -44"
 "targetname" "TriggerRoomThree"
 }
-// entity 586
+// entity 585
 {
 "classname" "monster_army"
 "origin" "736 3584 -44"
 "targetname" "TriggerRoomThree"
 }
-// entity 587
+// entity 586
 {
 "classname" "monster_army"
 "origin" "280 3384 -44"
 "targetname" "TriggerRoomThree"
 }
-// entity 588
+// entity 587
 {
 "classname" "monster_army"
 "origin" "584 3304 -36"
 "targetname" "TriggerRoomThree"
 }
-// entity 589
+// entity 588
 {
 "classname" "monster_army"
 "origin" "176 3248 -36"
 "targetname" "TriggerRoomThree"
 }
-// entity 590
+// entity 589
 {
 "classname" "trigger_once"
 "target" "TriggerRoomThree"
@@ -27480,9 +27476,51 @@
 ( 1120 3048 8 ) ( 1120 3176 -64 ) ( 1120 3048 -64 ) 128_blue_3 0 0 0 1 1
 }
 }
-// entity 591
+// entity 590
 {
 "classname" "monster_army"
 "origin" "432 3592 -36"
 "targetname" "TriggerRoomThree"
+}
+// entity 591
+{
+"classname" "item_spikes"
+"origin" "-1232 3152 -184"
+}
+// entity 592
+{
+"classname" "trigger_teleport"
+"target" "AcidDoorTeleportDestination"
+"targetname" "AcidRoomGruntThree"
+// brush 0
+{
+( -2192 3016 184 ) ( -2192 3000 176 ) ( -2192 3016 176 ) 128_honey_3 0 0 0 1 1
+( -2192 3000 184 ) ( -2176 3000 176 ) ( -2192 3000 176 ) 128_honey_3 0 0 0 1 1
+( -2176 3016 176 ) ( -2192 3000 176 ) ( -2176 3000 176 ) 128_honey_3 0 0 0 1 1
+( -2192 3016 184 ) ( -2176 3000 184 ) ( -2192 3000 184 ) 128_honey_3 0 0 0 1 1
+( -2192 3016 184 ) ( -2176 3016 176 ) ( -2176 3016 184 ) 128_honey_3 0 0 0 1 1
+( -2176 3000 184 ) ( -2176 3016 176 ) ( -2176 3000 176 ) 128_honey_3 0 0 0 1 1
+}
+}
+// entity 593
+{
+"classname" "monster_army"
+"origin" "-2184 3008 200"
+"angle" "270"
+"targetname" "AcidRoomGruntThree"
+}
+// entity 594
+{
+"classname" "trigger_counter"
+"origin" "-2320 2968 280"
+"targetname" "FinalAcidRoomWaveTrigger"
+"count" "1"
+"spawnflags" "1"
+"delay" "2"
+"target" "AcidRoomGruntThree"
+}
+// entity 595
+{
+"classname" "info_player_start"
+"origin" "-208 -2288 256"
 }

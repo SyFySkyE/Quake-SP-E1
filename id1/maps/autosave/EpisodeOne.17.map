@@ -20271,7 +20271,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Lava Trap"
-"_tb_id" "172"
+"_tb_id" "178"
 // brush 0
 {
 ( -1056 1016 80 ) ( -1056 896 88 ) ( -1056 896 80 ) *lavaskip 0 0 0 1 1
@@ -20286,7 +20286,7 @@
 {
 "classname" "trigger_teleport"
 "target" "tp1"
-"_tb_group" "172"
+"_tb_group" "178"
 // brush 0
 {
 ( -1056 1016 79 ) ( -1056 896 87 ) ( -1056 896 79 ) *lavaskip 0 0 0 1 1
@@ -23509,14 +23509,14 @@
 // entity 269
 {
 "classname" "monster_army"
-"origin" "40 560 536"
+"origin" "40 320 536"
 "target" "MainHubCornerOne"
 "targetname" "HubGuard"
 }
 // entity 270
 {
 "classname" "monster_army"
-"origin" "800 576 536"
+"origin" "808 288 536"
 "target" "MainHubCornerFour"
 "targetname" "HubGuard"
 }
@@ -23836,6 +23836,8 @@
 "count" "2"
 "message" "Pass the 3 trials to challenge me..."
 "killtarget" "PuzzleGate"
+"spawnflags" "1"
+"delay" "1"
 }
 // entity 281
 {
@@ -25705,7 +25707,7 @@
 "count" "3"
 "target" "PuzzleGateClose"
 "message" "  "
-"delay" "3"
+"delay" "60"
 }
 // entity 462
 {
@@ -25947,4 +25949,26 @@
 "classname" "info_player_start"
 "origin" "-248 -3584 -192"
 "angle" "300"
+}
+// entity 474
+{
+"classname" "trigger_relay"
+"origin" "-0 1720 744"
+}
+// entity 475
+{
+"classname" "trigger_once"
+"message" "does someone challenge me?!"
+"sounds" "3"
+"target" "MainHubGate"
+"delay" "2"
+// brush 0
+{
+( 344 280 632 ) ( 344 272 512 ) ( 344 280 512 ) 32_brown_3 0 0 0 1 1
+( 352 272 632 ) ( 496 272 512 ) ( 352 272 512 ) 32_brown_3 0 0 0 1 1
+( 496 280 512 ) ( 352 272 512 ) ( 496 272 512 ) 32_brown_3 0 0 0 1 1
+( 352 280 632 ) ( 496 272 632 ) ( 352 272 632 ) 32_brown_3 0 0 0 1 1
+( 352 280 632 ) ( 496 280 512 ) ( 496 280 632 ) 32_brown_3 0 0 0 1 1
+( 496 272 632 ) ( 496 280 512 ) ( 496 272 512 ) 32_brown_3 0 0 0 1 1
+}
 }

@@ -20470,7 +20470,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Lava Trap"
-"_tb_id" "266"
+"_tb_id" "268"
 // brush 0
 {
 ( -1056 1016 80 ) ( -1056 896 88 ) ( -1056 896 80 ) *lavaskip 0 0 0 1 1
@@ -20485,7 +20485,7 @@
 {
 "classname" "trigger_teleport"
 "target" "tp1"
-"_tb_group" "266"
+"_tb_group" "268"
 // brush 0
 {
 ( -1056 1016 79 ) ( -1056 896 87 ) ( -1056 896 79 ) *lavaskip 0 0 0 1 1
@@ -22943,7 +22943,7 @@
 // entity 204
 {
 "classname" "trigger_changelevel"
-"map" "Start"
+"map" "start"
 // brush 0
 {
 ( -896 2080 1024 ) ( -896 2064 1088 ) ( -896 2064 1024 ) *tele01 0 0 0 1 1
@@ -24750,14 +24750,14 @@
 // entity 339
 {
 "classname" "monster_army"
-"origin" "2392 2728 104"
+"origin" "2312 2768 104"
 "targetname" "RedRoomGrunts"
 "target" "FInalRedCounter"
 }
 // entity 340
 {
 "classname" "monster_army"
-"origin" "2168 2896 104"
+"origin" "2200 3024 104"
 "targetname" "RedRoomGrunts"
 "target" "FInalRedCounter"
 }

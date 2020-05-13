@@ -66,20 +66,20 @@ Processing hull 2...
 *** WARNING 16: Texture __TB_empty not found
 ---- WriteBSPFile ----
 Wrote EpisodeOne.bsp
-         4240 planes            84800
-        15384 vertexes         184608
+         4237 planes            84740
+        15388 vertexes         184656
          6306 nodes            151344
           159 texinfo            6360
-        12146 faces            242920
+        12150 faces            243000
          9822 clipnodes         78576
          4236 leafs            118608
-        16009 marksurfaces      32018
-        56160 surfedges        224640
-        28984 edges            115936
+        16013 marksurfaces      32026
+        56176 surfedges        224704
+        28992 edges            115968
            45 textures         501400
               lightdata             0
               visdata               0
               entdata           62641
 
-2.520 seconds elapsed
-Peak memory usage: 93652578 (89.3M)
+2.497 seconds elapsed
+Peak memory usage: 93659350 (89.3M)

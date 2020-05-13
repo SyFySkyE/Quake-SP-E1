@@ -20491,7 +20491,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Lava Trap"
-"_tb_id" "14"
+"_tb_id" "24"
 // brush 0
 {
 ( -1056 1016 80 ) ( -1056 896 88 ) ( -1056 896 80 ) *lavaskip 0 0 0 1 1
@@ -20506,7 +20506,7 @@
 {
 "classname" "trigger_teleport"
 "target" "tp1"
-"_tb_group" "14"
+"_tb_group" "24"
 // brush 0
 {
 ( -1056 1016 79 ) ( -1056 896 87 ) ( -1056 896 79 ) *lavaskip 0 0 0 1 1
@@ -27356,9 +27356,9 @@
 // entity 575
 {
 "classname" "monster_army"
-"origin" "600 2360 64"
+"origin" "600 2360 56"
 "angle" "270"
-"targetname" "OnAcidPuzzleTwo"
+"targetname" "AcidRoomTwoTopTeleport"
 }
 // entity 576
 {
@@ -27369,7 +27369,7 @@
 // entity 577
 {
 "classname" "info_player_start"
-"origin" "944 800 -40"
+"origin" "1160 3032 -40"
 }
 // entity 578
 {
@@ -27425,4 +27425,57 @@
 "classname" "trigger_relay"
 "origin" "672 2352 80"
 "targetname" "OnAcidPuzzleTwo"
+"target" "TeleportAcidRoomTwoTop"
+}
+// entity 584
+{
+"classname" "trigger_relay"
+"origin" "672 2376 80"
+"targetname" "OnAcidPuzzleTwo"
+"target" "AcidRoomTwoTopTeleport"
+"delay" "1"
+}
+// entity 585
+{
+"classname" "monster_army"
+"origin" "688 3200 -44"
+"targetname" "TriggerRoomThree"
+}
+// entity 586
+{
+"classname" "monster_army"
+"origin" "736 3584 -44"
+"targetname" "TriggerRoomThree"
+}
+// entity 587
+{
+"classname" "monster_army"
+"origin" "280 3384 -44"
+"targetname" "TriggerRoomThree"
+}
+// entity 588
+{
+"classname" "monster_army"
+"origin" "584 3304 -36"
+"targetname" "TriggerRoomThree"
+}
+// entity 589
+{
+"classname" "monster_army"
+"origin" "432 3248 -36"
+"targetname" "TriggerRoomThree"
+}
+// entity 590
+{
+"classname" "trigger_once"
+"target" "TriggerRoomThree"
+// brush 0
+{
+( 1112 3176 8 ) ( 1112 3048 -64 ) ( 1112 3176 -64 ) 128_blue_3 0 0 0 1 1
+( 1112 3048 8 ) ( 1120 3048 -64 ) ( 1112 3048 -64 ) 128_blue_3 0 0 0 1 1
+( 1120 3176 -64 ) ( 1112 3048 -64 ) ( 1120 3048 -64 ) 128_blue_3 0 0 0 1 1
+( 1112 3176 8 ) ( 1120 3048 8 ) ( 1112 3048 8 ) 128_blue_3 0 0 0 1 1
+( 1112 3176 8 ) ( 1120 3176 -64 ) ( 1120 3176 8 ) 128_blue_3 0 0 0 1 1
+( 1120 3048 8 ) ( 1120 3176 -64 ) ( 1120 3048 -64 ) 128_blue_3 0 0 0 1 1
+}
 }

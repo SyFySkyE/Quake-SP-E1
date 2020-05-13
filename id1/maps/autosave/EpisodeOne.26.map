@@ -20415,7 +20415,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Lava Trap"
-"_tb_id" "229"
+"_tb_id" "233"
 // brush 0
 {
 ( -1056 1016 80 ) ( -1056 896 88 ) ( -1056 896 80 ) *lavaskip 0 0 0 1 1
@@ -20430,7 +20430,7 @@
 {
 "classname" "trigger_teleport"
 "target" "tp1"
-"_tb_group" "229"
+"_tb_group" "233"
 // brush 0
 {
 ( -1056 1016 79 ) ( -1056 896 87 ) ( -1056 896 79 ) *lavaskip 0 0 0 1 1
@@ -26343,11 +26343,13 @@
 {
 "classname" "monster_shambler"
 "origin" "-2360 2560 1240"
+"target" "ThirdBossWaveCounter"
 }
 // entity 486
 {
 "classname" "monster_shambler"
 "origin" "-2360 2648 1240"
+"target" "ThirdBossWaveCounter"
 }
 // entity 487
 {
@@ -26382,6 +26384,7 @@
 // entity 490
 {
 "classname" "func_train"
+"targetname" "OpenExitTrain"
 // brush 0
 {
 ( -928 2064 1312 ) ( -928 2048 1024 ) ( -928 2064 1024 ) 128_cyan_3 0 0 0 1 1
@@ -26590,4 +26593,368 @@
 "targetname" "SecondBossWaveCounter"
 "count" "10"
 "spawnflags" "1"
+"target" "SpawnThirdBoss"
+}
+// entity 517
+{
+"classname" "trigger_teleport"
+"targetname" "SpawnSecondBossWave"
+"target" "BossRoomDesinationTwo"
+// brush 0
+{
+( -1968 2424 1224 ) ( -1968 2408 1216 ) ( -1968 2424 1216 ) 128_honey_3 0 0 0 1 1
+( -1968 2408 1224 ) ( -1952 2408 1216 ) ( -1968 2408 1216 ) 128_honey_3 0 0 0 1 1
+( -1952 2424 1216 ) ( -1968 2408 1216 ) ( -1952 2408 1216 ) 128_honey_3 0 0 0 1 1
+( -1968 2424 1224 ) ( -1952 2408 1224 ) ( -1968 2408 1224 ) 128_honey_3 0 0 0 1 1
+( -1968 2424 1224 ) ( -1952 2424 1216 ) ( -1952 2424 1224 ) 128_honey_3 0 0 0 1 1
+( -1952 2408 1224 ) ( -1952 2424 1216 ) ( -1952 2408 1216 ) 128_honey_3 0 0 0 1 1
+}
+}
+// entity 518
+{
+"classname" "trigger_teleport"
+"targetname" "SpawnSecondBossWave"
+"target" "BossRoomDesinationThree"
+// brush 0
+{
+( -2024 2424 1224 ) ( -2024 2408 1216 ) ( -2024 2424 1216 ) 128_honey_3 0 0 0 1 1
+( -2024 2408 1224 ) ( -2008 2408 1216 ) ( -2024 2408 1216 ) 128_honey_3 0 0 0 1 1
+( -2008 2424 1216 ) ( -2024 2408 1216 ) ( -2008 2408 1216 ) 128_honey_3 0 0 0 1 1
+( -2024 2424 1224 ) ( -2008 2408 1224 ) ( -2024 2408 1224 ) 128_honey_3 0 0 0 1 1
+( -2024 2424 1224 ) ( -2008 2424 1216 ) ( -2008 2424 1224 ) 128_honey_3 0 0 0 1 1
+( -2008 2408 1224 ) ( -2008 2424 1216 ) ( -2008 2408 1216 ) 128_honey_3 0 0 0 1 1
+}
+}
+// entity 519
+{
+"classname" "trigger_teleport"
+"targetname" "SpawnSecondBossWave"
+"target" "BossRoomDestinationFive"
+// brush 0
+{
+( -2072 2424 1224 ) ( -2072 2408 1216 ) ( -2072 2424 1216 ) 128_honey_3 0 0 0 1 1
+( -2072 2408 1224 ) ( -2056 2408 1216 ) ( -2072 2408 1216 ) 128_honey_3 0 0 0 1 1
+( -2056 2424 1216 ) ( -2072 2408 1216 ) ( -2056 2408 1216 ) 128_honey_3 0 0 0 1 1
+( -2072 2424 1224 ) ( -2056 2408 1224 ) ( -2072 2408 1224 ) 128_honey_3 0 0 0 1 1
+( -2072 2424 1224 ) ( -2056 2424 1216 ) ( -2056 2424 1224 ) 128_honey_3 0 0 0 1 1
+( -2056 2408 1224 ) ( -2056 2424 1216 ) ( -2056 2408 1216 ) 128_honey_3 0 0 0 1 1
+}
+}
+// entity 520
+{
+"classname" "trigger_teleport"
+"targetname" "SpawnSecondBossWave"
+"target" "BossRoomDestinationSix"
+// brush 0
+{
+( -2120 2424 1224 ) ( -2120 2408 1216 ) ( -2120 2424 1216 ) 128_honey_3 0 0 0 1 1
+( -2120 2408 1224 ) ( -2104 2408 1216 ) ( -2120 2408 1216 ) 128_honey_3 0 0 0 1 1
+( -2104 2424 1216 ) ( -2120 2408 1216 ) ( -2104 2408 1216 ) 128_honey_3 0 0 0 1 1
+( -2120 2424 1224 ) ( -2104 2408 1224 ) ( -2120 2408 1224 ) 128_honey_3 0 0 0 1 1
+( -2120 2424 1224 ) ( -2104 2424 1216 ) ( -2104 2424 1224 ) 128_honey_3 0 0 0 1 1
+( -2104 2408 1224 ) ( -2104 2424 1216 ) ( -2104 2408 1216 ) 128_honey_3 0 0 0 1 1
+}
+}
+// entity 521
+{
+"classname" "trigger_teleport"
+"targetname" "SpawnSecondBossWave"
+"target" "BossRoomDestinationNine"
+// brush 0
+{
+( -2160 2424 1224 ) ( -2160 2408 1216 ) ( -2160 2424 1216 ) 128_honey_3 0 0 0 1 1
+( -2160 2408 1224 ) ( -2144 2408 1216 ) ( -2160 2408 1216 ) 128_honey_3 0 0 0 1 1
+( -2144 2424 1216 ) ( -2160 2408 1216 ) ( -2144 2408 1216 ) 128_honey_3 0 0 0 1 1
+( -2160 2424 1224 ) ( -2144 2408 1224 ) ( -2160 2408 1224 ) 128_honey_3 0 0 0 1 1
+( -2160 2424 1224 ) ( -2144 2424 1216 ) ( -2144 2424 1224 ) 128_honey_3 0 0 0 1 1
+( -2144 2408 1224 ) ( -2144 2424 1216 ) ( -2144 2408 1216 ) 128_honey_3 0 0 0 1 1
+}
+}
+// entity 522
+{
+"classname" "trigger_teleport"
+"targetname" "SpawnSecondBossWave"
+"target" "BossRoomDestinationTen"
+// brush 0
+{
+( -2160 2472 1224 ) ( -2160 2456 1216 ) ( -2160 2472 1216 ) 128_honey_3 0 0 0 1 1
+( -2160 2456 1224 ) ( -2144 2456 1216 ) ( -2160 2456 1216 ) 128_honey_3 0 0 0 1 1
+( -2144 2472 1216 ) ( -2160 2456 1216 ) ( -2144 2456 1216 ) 128_honey_3 0 0 0 1 1
+( -2160 2472 1224 ) ( -2144 2456 1224 ) ( -2160 2456 1224 ) 128_honey_3 0 0 0 1 1
+( -2160 2472 1224 ) ( -2144 2472 1216 ) ( -2144 2472 1224 ) 128_honey_3 0 0 0 1 1
+( -2144 2456 1224 ) ( -2144 2472 1216 ) ( -2144 2456 1216 ) 128_honey_3 0 0 0 1 1
+}
+}
+// entity 523
+{
+"classname" "trigger_teleport"
+"targetname" "SpawnSecondBossWave"
+"target" "BossRoomDestinationEleven"
+// brush 0
+{
+( -2200 2472 1224 ) ( -2200 2456 1216 ) ( -2200 2472 1216 ) 128_honey_3 0 0 0 1 1
+( -2200 2456 1224 ) ( -2184 2456 1216 ) ( -2200 2456 1216 ) 128_honey_3 0 0 0 1 1
+( -2184 2472 1216 ) ( -2200 2456 1216 ) ( -2184 2456 1216 ) 128_honey_3 0 0 0 1 1
+( -2200 2472 1224 ) ( -2184 2456 1224 ) ( -2200 2456 1224 ) 128_honey_3 0 0 0 1 1
+( -2200 2472 1224 ) ( -2184 2472 1216 ) ( -2184 2472 1224 ) 128_honey_3 0 0 0 1 1
+( -2184 2456 1224 ) ( -2184 2472 1216 ) ( -2184 2456 1216 ) 128_honey_3 0 0 0 1 1
+}
+}
+// entity 524
+{
+"classname" "trigger_teleport"
+"targetname" "SpawnSecondBossWave"
+"target" "BossRoomDestinationSeven"
+// brush 0
+{
+( -2248 2472 1224 ) ( -2248 2456 1216 ) ( -2248 2472 1216 ) 128_honey_3 0 0 0 1 1
+( -2248 2456 1224 ) ( -2232 2456 1216 ) ( -2248 2456 1216 ) 128_honey_3 0 0 0 1 1
+( -2232 2472 1216 ) ( -2248 2456 1216 ) ( -2232 2456 1216 ) 128_honey_3 0 0 0 1 1
+( -2248 2472 1224 ) ( -2232 2456 1224 ) ( -2248 2456 1224 ) 128_honey_3 0 0 0 1 1
+( -2248 2472 1224 ) ( -2232 2472 1216 ) ( -2232 2472 1224 ) 128_honey_3 0 0 0 1 1
+( -2232 2456 1224 ) ( -2232 2472 1216 ) ( -2232 2456 1216 ) 128_honey_3 0 0 0 1 1
+}
+}
+// entity 525
+{
+"classname" "trigger_teleport"
+"targetname" "SpawnSecondBossWave"
+"target" "BossRoomDestinationEight"
+// brush 0
+{
+( -2248 2424 1224 ) ( -2248 2408 1216 ) ( -2248 2424 1216 ) 128_honey_3 0 0 0 1 1
+( -2248 2408 1224 ) ( -2232 2408 1216 ) ( -2248 2408 1216 ) 128_honey_3 0 0 0 1 1
+( -2232 2424 1216 ) ( -2248 2408 1216 ) ( -2232 2408 1216 ) 128_honey_3 0 0 0 1 1
+( -2248 2424 1224 ) ( -2232 2408 1224 ) ( -2248 2408 1224 ) 128_honey_3 0 0 0 1 1
+( -2248 2424 1224 ) ( -2232 2424 1216 ) ( -2232 2424 1224 ) 128_honey_3 0 0 0 1 1
+( -2232 2408 1224 ) ( -2232 2424 1216 ) ( -2232 2408 1216 ) 128_honey_3 0 0 0 1 1
+}
+}
+// entity 526
+{
+"classname" "trigger_teleport"
+"targetname" "SpawnSecondBossWave"
+"target" "BossRoomDesinationFour"
+// brush 0
+{
+( -2200 2424 1224 ) ( -2200 2408 1216 ) ( -2200 2424 1216 ) 128_honey_3 0 0 0 1 1
+( -2200 2408 1224 ) ( -2184 2408 1216 ) ( -2200 2408 1216 ) 128_honey_3 0 0 0 1 1
+( -2184 2424 1216 ) ( -2200 2408 1216 ) ( -2184 2408 1216 ) 128_honey_3 0 0 0 1 1
+( -2200 2424 1224 ) ( -2184 2408 1224 ) ( -2200 2408 1224 ) 128_honey_3 0 0 0 1 1
+( -2200 2424 1224 ) ( -2184 2424 1216 ) ( -2184 2424 1224 ) 128_honey_3 0 0 0 1 1
+( -2184 2408 1224 ) ( -2184 2424 1216 ) ( -2184 2408 1216 ) 128_honey_3 0 0 0 1 1
+}
+}
+// entity 527
+{
+"classname" "trigger_relay"
+"origin" "-2440 2664 1312"
+"targetname" "SpawnThirdBoss"
+"target" "SpawnThirdBossWave"
+}
+// entity 528
+{
+"classname" "trigger_teleport"
+"target" "BossChairDestinationTwo"
+"targetname" "SpawnThirdBossWave"
+// brush 0
+{
+( -2360 2568 1224 ) ( -2360 2552 1216 ) ( -2360 2568 1216 ) 128_honey_3 0 0 0 1 1
+( -2360 2552 1224 ) ( -2344 2552 1216 ) ( -2360 2552 1216 ) 128_honey_3 0 0 0 1 1
+( -2344 2568 1216 ) ( -2360 2552 1216 ) ( -2344 2552 1216 ) 128_honey_3 0 0 0 1 1
+( -2360 2568 1224 ) ( -2344 2552 1224 ) ( -2360 2552 1224 ) 128_honey_3 0 0 0 1 1
+( -2360 2568 1224 ) ( -2344 2568 1216 ) ( -2344 2568 1224 ) 128_honey_3 0 0 0 1 1
+( -2344 2552 1224 ) ( -2344 2568 1216 ) ( -2344 2552 1216 ) 128_honey_3 0 0 0 1 1
+}
+}
+// entity 529
+{
+"classname" "trigger_teleport"
+"target" "BossChairDestinationThree"
+"targetname" "SpawnThirdBossWave"
+// brush 0
+{
+( -2360 2656 1224 ) ( -2360 2640 1216 ) ( -2360 2656 1216 ) 128_honey_3 0 0 0 1 1
+( -2360 2640 1224 ) ( -2344 2640 1216 ) ( -2360 2640 1216 ) 128_honey_3 0 0 0 1 1
+( -2344 2656 1216 ) ( -2360 2640 1216 ) ( -2344 2640 1216 ) 128_honey_3 0 0 0 1 1
+( -2360 2656 1224 ) ( -2344 2640 1224 ) ( -2360 2640 1224 ) 128_honey_3 0 0 0 1 1
+( -2360 2656 1224 ) ( -2344 2656 1216 ) ( -2344 2656 1224 ) 128_honey_3 0 0 0 1 1
+( -2344 2640 1224 ) ( -2344 2656 1216 ) ( -2344 2640 1216 ) 128_honey_3 0 0 0 1 1
+}
+}
+// entity 530
+{
+"classname" "monster_army"
+"origin" "-2264 2768 1240"
+"angle" "255"
+"targetname" "SpawnThirdBossWave"
+"target" "ThirdBossWaveCounter"
+}
+// entity 531
+{
+"classname" "monster_army"
+"origin" "-2216 2768 1240"
+"angle" "255"
+"targetname" "SpawnThirdBossWave"
+"target" "ThirdBossWaveCounter"
+}
+// entity 532
+{
+"classname" "monster_army"
+"origin" "-2176 2768 1240"
+"angle" "255"
+"targetname" "SpawnThirdBossWave"
+"target" "ThirdBossWaveCounter"
+}
+// entity 533
+{
+"classname" "monster_army"
+"origin" "-2136 2768 1240"
+"angle" "255"
+"targetname" "SpawnThirdBossWave"
+"target" "ThirdBossWaveCounter"
+}
+// entity 534
+{
+"classname" "monster_army"
+"origin" "-2096 2768 1240"
+"angle" "255"
+"targetname" "SpawnThirdBossWave"
+"target" "ThirdBossWaveCounter"
+}
+// entity 535
+{
+"classname" "monster_army"
+"origin" "-2056 2768 1240"
+"angle" "255"
+"targetname" "SpawnThirdBossWave"
+"target" "ThirdBossWaveCounter"
+}
+// entity 536
+{
+"classname" "monster_army"
+"origin" "-2008 2768 1240"
+"angle" "255"
+"targetname" "SpawnThirdBossWave"
+"target" "ThirdBossWaveCounter"
+}
+// entity 537
+{
+"classname" "trigger_counter"
+"origin" "-2136 2800 1328"
+"targetname" "ThirdBossWaveCounter"
+"count" "9"
+"target" "OpenExit"
+}
+// entity 538
+{
+"classname" "trigger_teleport"
+"targetname" "SpawnThirdBossWave"
+"target" "BossPillarDestinationOne"
+// brush 0
+{
+( -2264 2776 1224 ) ( -2264 2760 1216 ) ( -2264 2776 1216 ) 128_honey_3 0 0 0 1 1
+( -2264 2760 1224 ) ( -2248 2760 1216 ) ( -2264 2760 1216 ) 128_honey_3 0 0 0 1 1
+( -2248 2776 1216 ) ( -2264 2760 1216 ) ( -2248 2760 1216 ) 128_honey_3 0 0 0 1 1
+( -2264 2776 1224 ) ( -2248 2760 1224 ) ( -2264 2760 1224 ) 128_honey_3 0 0 0 1 1
+( -2264 2776 1224 ) ( -2248 2776 1216 ) ( -2248 2776 1224 ) 128_honey_3 0 0 0 1 1
+( -2248 2760 1224 ) ( -2248 2776 1216 ) ( -2248 2760 1216 ) 128_honey_3 0 0 0 1 1
+}
+}
+// entity 539
+{
+"classname" "trigger_teleport"
+"targetname" "SpawnThirdBossWave"
+"target" "BossPillarDestinationTwo"
+// brush 0
+{
+( -2216 2776 1224 ) ( -2216 2760 1216 ) ( -2216 2776 1216 ) 128_honey_3 0 0 0 1 1
+( -2216 2760 1224 ) ( -2200 2760 1216 ) ( -2216 2760 1216 ) 128_honey_3 0 0 0 1 1
+( -2200 2776 1216 ) ( -2216 2760 1216 ) ( -2200 2760 1216 ) 128_honey_3 0 0 0 1 1
+( -2216 2776 1224 ) ( -2200 2760 1224 ) ( -2216 2760 1224 ) 128_honey_3 0 0 0 1 1
+( -2216 2776 1224 ) ( -2200 2776 1216 ) ( -2200 2776 1224 ) 128_honey_3 0 0 0 1 1
+( -2200 2760 1224 ) ( -2200 2776 1216 ) ( -2200 2760 1216 ) 128_honey_3 0 0 0 1 1
+}
+}
+// entity 540
+{
+"classname" "trigger_teleport"
+"targetname" "SpawnThirdBossWave"
+"target" "BossRoomDesinationThree"
+// brush 0
+{
+( -2176 2776 1224 ) ( -2176 2760 1216 ) ( -2176 2776 1216 ) 128_honey_3 0 0 0 1 1
+( -2176 2760 1224 ) ( -2160 2760 1216 ) ( -2176 2760 1216 ) 128_honey_3 0 0 0 1 1
+( -2160 2776 1216 ) ( -2176 2760 1216 ) ( -2160 2760 1216 ) 128_honey_3 0 0 0 1 1
+( -2176 2776 1224 ) ( -2160 2760 1224 ) ( -2176 2760 1224 ) 128_honey_3 0 0 0 1 1
+( -2176 2776 1224 ) ( -2160 2776 1216 ) ( -2160 2776 1224 ) 128_honey_3 0 0 0 1 1
+( -2160 2760 1224 ) ( -2160 2776 1216 ) ( -2160 2760 1216 ) 128_honey_3 0 0 0 1 1
+}
+}
+// entity 541
+{
+"classname" "trigger_teleport"
+"targetname" "SpawnThirdBossWave"
+"target" "BossRoomDesinationFour"
+// brush 0
+{
+( -2144 2776 1224 ) ( -2144 2760 1216 ) ( -2144 2776 1216 ) 128_honey_3 0 0 0 1 1
+( -2144 2760 1224 ) ( -2128 2760 1216 ) ( -2144 2760 1216 ) 128_honey_3 0 0 0 1 1
+( -2128 2776 1216 ) ( -2144 2760 1216 ) ( -2128 2760 1216 ) 128_honey_3 0 0 0 1 1
+( -2144 2776 1224 ) ( -2128 2760 1224 ) ( -2144 2760 1224 ) 128_honey_3 0 0 0 1 1
+( -2144 2776 1224 ) ( -2128 2776 1216 ) ( -2128 2776 1224 ) 128_honey_3 0 0 0 1 1
+( -2128 2760 1224 ) ( -2128 2776 1216 ) ( -2128 2760 1216 ) 128_honey_3 0 0 0 1 1
+}
+}
+// entity 542
+{
+"classname" "trigger_teleport"
+"targetname" "SpawnThirdBossWave"
+"target" "BossRoomDestinationFive"
+// brush 0
+{
+( -2096 2776 1224 ) ( -2096 2760 1216 ) ( -2096 2776 1216 ) 128_honey_3 0 0 0 1 1
+( -2096 2760 1224 ) ( -2080 2760 1216 ) ( -2096 2760 1216 ) 128_honey_3 0 0 0 1 1
+( -2080 2776 1216 ) ( -2096 2760 1216 ) ( -2080 2760 1216 ) 128_honey_3 0 0 0 1 1
+( -2096 2776 1224 ) ( -2080 2760 1224 ) ( -2096 2760 1224 ) 128_honey_3 0 0 0 1 1
+( -2096 2776 1224 ) ( -2080 2776 1216 ) ( -2080 2776 1224 ) 128_honey_3 0 0 0 1 1
+( -2080 2760 1224 ) ( -2080 2776 1216 ) ( -2080 2760 1216 ) 128_honey_3 0 0 0 1 1
+}
+}
+// entity 543
+{
+"classname" "trigger_teleport"
+"targetname" "SpawnThirdBossWave"
+"target" "BossRoomDestinationSix"
+// brush 0
+{
+( -2056 2776 1224 ) ( -2056 2760 1216 ) ( -2056 2776 1216 ) 128_honey_3 0 0 0 1 1
+( -2056 2760 1224 ) ( -2040 2760 1216 ) ( -2056 2760 1216 ) 128_honey_3 0 0 0 1 1
+( -2040 2776 1216 ) ( -2056 2760 1216 ) ( -2040 2760 1216 ) 128_honey_3 0 0 0 1 1
+( -2056 2776 1224 ) ( -2040 2760 1224 ) ( -2056 2760 1224 ) 128_honey_3 0 0 0 1 1
+( -2056 2776 1224 ) ( -2040 2776 1216 ) ( -2040 2776 1224 ) 128_honey_3 0 0 0 1 1
+( -2040 2760 1224 ) ( -2040 2776 1216 ) ( -2040 2760 1216 ) 128_honey_3 0 0 0 1 1
+}
+}
+// entity 544
+{
+"classname" "trigger_teleport"
+"targetname" "SpawnThirdBossWave"
+"target" "BossRoomDestinationSeven"
+// brush 0
+{
+( -2000 2776 1224 ) ( -2000 2760 1216 ) ( -2000 2776 1216 ) 128_honey_3 0 0 0 1 1
+( -2000 2760 1224 ) ( -1984 2760 1216 ) ( -2000 2760 1216 ) 128_honey_3 0 0 0 1 1
+( -1984 2776 1216 ) ( -2000 2760 1216 ) ( -1984 2760 1216 ) 128_honey_3 0 0 0 1 1
+( -2000 2776 1224 ) ( -1984 2760 1224 ) ( -2000 2760 1224 ) 128_honey_3 0 0 0 1 1
+( -2000 2776 1224 ) ( -1984 2776 1216 ) ( -1984 2776 1224 ) 128_honey_3 0 0 0 1 1
+( -1984 2760 1224 ) ( -1984 2776 1216 ) ( -1984 2760 1216 ) 128_honey_3 0 0 0 1 1
+}
+}
+// entity 545
+{
+"classname" "trigger_relay"
+"origin" "-2024 2800 1352"
+"targetname" "OpenExit"
+"target" "OpenExitTrain"
 }

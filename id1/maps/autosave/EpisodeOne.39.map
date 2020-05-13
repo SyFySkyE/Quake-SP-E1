@@ -20491,7 +20491,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Lava Trap"
-"_tb_id" "24"
+"_tb_id" "35"
 // brush 0
 {
 ( -1056 1016 80 ) ( -1056 896 88 ) ( -1056 896 80 ) *lavaskip 0 0 0 1 1
@@ -20506,7 +20506,7 @@
 {
 "classname" "trigger_teleport"
 "target" "tp1"
-"_tb_group" "24"
+"_tb_group" "35"
 // brush 0
 {
 ( -1056 1016 79 ) ( -1056 896 87 ) ( -1056 896 79 ) *lavaskip 0 0 0 1 1
@@ -22623,6 +22623,7 @@
 "classname" "monster_wizard"
 "origin" "-2240 2776 200"
 "target" "AcidRoomTeleportLastWizards"
+"targetname" "AcidRoomTeleportMonsters"
 }
 // entity 177
 {
@@ -27369,7 +27370,7 @@
 // entity 577
 {
 "classname" "info_player_start"
-"origin" "1160 3032 -40"
+"origin" "1160 2944 -40"
 }
 // entity 578
 {
@@ -27462,7 +27463,7 @@
 // entity 589
 {
 "classname" "monster_army"
-"origin" "432 3248 -36"
+"origin" "176 3248 -36"
 "targetname" "TriggerRoomThree"
 }
 // entity 590
@@ -27478,4 +27479,10 @@
 ( 1112 3176 8 ) ( 1120 3176 -64 ) ( 1120 3176 8 ) 128_blue_3 0 0 0 1 1
 ( 1120 3048 8 ) ( 1120 3176 -64 ) ( 1120 3048 -64 ) 128_blue_3 0 0 0 1 1
 }
+}
+// entity 591
+{
+"classname" "monster_army"
+"origin" "432 3592 -36"
+"targetname" "TriggerRoomThree"
 }
