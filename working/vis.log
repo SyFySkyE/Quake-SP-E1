@@ -11,7 +11,7 @@ Calculating Full Vis:
 0....1....2....3....4....5....6....7....8....9....
 average leafs visible: 152
 c_noclip: 0
-c_chains: 41921919
-visdatasize:122945  compressed from 758912
+c_chains: 42122103
+visdatasize:122950  compressed from 758912
 Writing EpisodeOne.bsp as BSP version 29
- 28.3 seconds elapsed
+ 32.2 seconds elapsed

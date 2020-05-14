@@ -34,10 +34,10 @@ Final count: 163 lights 0 suns in use.
 0....1....2....3....4....5....6....7....8....9....
 Lighting Completed.
 
-lightdatasize: 527513
+lightdatasize: 527516
 1 switchable light styles (32 max)
 Writing EpisodeOne.bsp as BSP version 29
-28.789 seconds elapsed
+25.912 seconds elapsed
 
 stats:
 6.596531 lights tested, 1.273925 hits per sample point
