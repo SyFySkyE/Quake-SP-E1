@@ -16,8 +16,8 @@ WARNING: brush entity with mins (-143.00 937.00 705.) maxs (-137.00 1111.00 895)
     "bounce" was set to "1" from commandline
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
-	413 sky faces
-	8130 solid faces
+	1467 sky faces
+	8406 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
 SetupLights: 0 initial lights
@@ -36,7 +36,7 @@ Lighting Completed.
 lightdatasize: 0
 0 switchable light styles (32 max)
 Writing EpisodeOne.bsp as BSP version 29
-1.972 seconds elapsed
+2.144 seconds elapsed
 
 stats:
 0.000000 lights tested, 0.000000 hits per sample point
