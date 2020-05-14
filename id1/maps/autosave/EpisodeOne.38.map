@@ -25234,7 +25234,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Lava Trap"
-"_tb_id" "651"
+"_tb_id" "657"
 // brush 0
 {
 ( -1056 1016 80 ) ( -1056 896 88 ) ( -1056 896 80 ) *lavaskip 0 0 0 1 1
@@ -25249,7 +25249,7 @@
 {
 "classname" "trigger_teleport"
 "target" "tp1"
-"_tb_group" "651"
+"_tb_group" "657"
 // brush 0
 {
 ( -1056 1016 79 ) ( -1056 896 87 ) ( -1056 896 79 ) *lavaskip 0 0 0 1 1
@@ -32577,7 +32577,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Boss Pillars Top"
-"_tb_id" "652"
+"_tb_id" "658"
 // brush 0
 {
 ( -496 2272 1392 ) ( -496 2160 1024 ) ( -496 2272 1024 ) wl_metal13(s) 0 0 0 1 1
@@ -32728,7 +32728,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Boss Room Pillars mid"
-"_tb_id" "653"
+"_tb_id" "659"
 // brush 0
 {
 ( -496 2272 1392 ) ( -496 2160 1024 ) ( -496 2272 1024 ) altar1_8 0 0 0 1 1
@@ -33047,7 +33047,7 @@
 "classname" "light"
 "origin" "408 1232 904"
 "delay" "3"
-"light" "150"
+"light" "75"
 }
 // entity 648
 {
@@ -33060,4 +33060,46 @@
 {
 "classname" "light"
 "origin" "416 720 376"
+}
+// entity 650
+{
+"classname" "light"
+"origin" "416 984 616"
+}
+// entity 651
+{
+"classname" "light"
+"origin" "-1128 1032 520"
+"light" "500"
+"wait" "4"
+}
+// entity 652
+{
+"classname" "light_flame_large_yellow"
+"origin" "-1056 1144 628"
+}
+// entity 653
+{
+"classname" "light_flame_large_yellow"
+"origin" "-1056 904 628"
+}
+// entity 654
+{
+"classname" "light"
+"origin" "-416 1024 736"
+}
+// entity 655
+{
+"classname" "light"
+"origin" "-824 1032 672"
+}
+// entity 656
+{
+"classname" "light_torch_small_walltorch"
+"origin" "1259 1068 588"
+}
+// entity 657
+{
+"classname" "light_torch_small_walltorch"
+"origin" "1259 980 588"
 }

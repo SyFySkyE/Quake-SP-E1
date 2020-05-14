@@ -25234,7 +25234,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Lava Trap"
-"_tb_id" "558"
+"_tb_id" "588"
 // brush 0
 {
 ( -1056 1016 80 ) ( -1056 896 88 ) ( -1056 896 80 ) *lavaskip 0 0 0 1 1
@@ -25249,7 +25249,7 @@
 {
 "classname" "trigger_teleport"
 "target" "tp1"
-"_tb_group" "558"
+"_tb_group" "588"
 // brush 0
 {
 ( -1056 1016 79 ) ( -1056 896 87 ) ( -1056 896 79 ) *lavaskip 0 0 0 1 1
@@ -32593,7 +32593,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Boss Pillars Top"
-"_tb_id" "559"
+"_tb_id" "589"
 // brush 0
 {
 ( -496 2272 1392 ) ( -496 2160 1024 ) ( -496 2272 1024 ) wl_metal13(s) 0 0 0 1 1
@@ -32744,7 +32744,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Boss Room Pillars mid"
-"_tb_id" "560"
+"_tb_id" "590"
 // brush 0
 {
 ( -496 2272 1392 ) ( -496 2160 1024 ) ( -496 2272 1024 ) altar1_8 0 0 0 1 1
@@ -32893,7 +32893,7 @@
 // entity 625
 {
 "classname" "info_player_start"
-"origin" "-280 -3544 -192"
+"origin" "-160 -984 312"
 "angle" "300"
 }
 // entity 626
@@ -32924,5 +32924,78 @@
 // entity 629
 {
 "classname" "light"
-"origin" "-712 -1640 464"
+"origin" "-552 -1624 240"
+"delay" "3"
+}
+// entity 630
+{
+"classname" "light"
+"origin" "176 -1624 240"
+"delay" "3"
+}
+// entity 631
+{
+"classname" "light"
+"origin" "-128 -520 392"
+"wait" "5"
+"light" "500"
+}
+// entity 632
+{
+"classname" "light"
+"origin" "480 -704 392"
+"wait" "5"
+"light" "500"
+}
+// entity 633
+{
+"classname" "light_flame_large_yellow"
+"origin" "312 -520 372"
+"wait" "3"
+"delay" "5"
+}
+// entity 634
+{
+"classname" "light_flame_large_yellow"
+"origin" "-48 -520 372"
+"wait" "3"
+"delay" "5"
+}
+// entity 635
+{
+"classname" "light_flame_large_yellow"
+"origin" "-48 -856 372"
+"wait" "3"
+"delay" "5"
+}
+// entity 636
+{
+"classname" "light_flame_large_yellow"
+"origin" "312 -856 372"
+"wait" "3"
+"delay" "5"
+}
+// entity 637
+{
+"classname" "light"
+"origin" "1112 816 2008"
+"delay" "3"
+}
+// entity 638
+{
+"classname" "light"
+"origin" "-296 816 2008"
+"delay" "5"
+"wait" "3"
+}
+// entity 639
+{
+"classname" "light"
+"origin" "416 264 584"
+"delay" "3"
+}
+// entity 640
+{
+"classname" "light"
+"origin" "424 -176 464"
 }

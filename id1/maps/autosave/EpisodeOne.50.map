@@ -25297,7 +25297,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Lava Trap"
-"_tb_id" "954"
+"_tb_id" "10"
 // brush 0
 {
 ( -1056 1016 80 ) ( -1056 896 88 ) ( -1056 896 80 ) *lavaskip 0 0 0 1 1
@@ -25312,7 +25312,7 @@
 {
 "classname" "trigger_teleport"
 "target" "tp1"
-"_tb_group" "954"
+"_tb_group" "10"
 // brush 0
 {
 ( -1056 1016 79 ) ( -1056 896 87 ) ( -1056 896 79 ) *lavaskip 0 0 0 1 1
@@ -32055,7 +32055,7 @@
 // entity 559
 {
 "classname" "info_intermission"
-"origin" "-768 2251 1288"
+"origin" "-768 2287 1229"
 "mangle" "22 89 0"
 }
 // entity 560
@@ -32640,7 +32640,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Boss Pillars Top"
-"_tb_id" "955"
+"_tb_id" "11"
 // brush 0
 {
 ( -496 2272 1392 ) ( -496 2160 1024 ) ( -496 2272 1024 ) wl_metal13(s) 0 0 0 1 1
@@ -32791,7 +32791,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Boss Room Pillars mid"
-"_tb_id" "956"
+"_tb_id" "12"
 // brush 0
 {
 ( -496 2272 1392 ) ( -496 2160 1024 ) ( -496 2272 1024 ) altar1_8 0 0 0 1 1
@@ -33852,7 +33852,8 @@
 {
 "classname" "light"
 "origin" "460 2312 696"
-"light" "300"
+"light" "200"
+"style" "5"
 }
 // entity 763
 {
@@ -33888,24 +33889,19 @@
 }
 // entity 767
 {
-"classname" "info_player_start"
-"origin" "592 1396 536"
-}
-// entity 768
-{
 "classname" "light"
 "origin" "-44 2288 696"
 "light" "300"
 "delay" "5"
 "wait" ".5"
 }
-// entity 769
+// entity 768
 {
 "classname" "light"
 "origin" "484 1784 696"
 "light" "300"
 }
-// entity 770
+// entity 769
 {
 "classname" "light"
 "origin" "-52 2988 696"
@@ -33913,7 +33909,7 @@
 "delay" "5"
 "wait" ".5"
 }
-// entity 771
+// entity 770
 {
 "classname" "light"
 "origin" "580 2984 632"
@@ -33922,7 +33918,7 @@
 "wait" ".5"
 "style" "5"
 }
-// entity 772
+// entity 771
 {
 "classname" "light"
 "origin" "-688 2952 632"
@@ -33931,7 +33927,7 @@
 "wait" ".5"
 "style" "5"
 }
-// entity 773
+// entity 772
 {
 "classname" "light"
 "origin" "-24 3732 696"
@@ -33939,7 +33935,7 @@
 "delay" "5"
 "wait" ".5"
 }
-// entity 774
+// entity 773
 {
 "classname" "light"
 "origin" "-32 3760 668"
@@ -33947,7 +33943,7 @@
 "delay" "2"
 "wait" "5"
 }
-// entity 775
+// entity 774
 {
 "classname" "light"
 "origin" "616 3744 696"
@@ -33956,20 +33952,20 @@
 "wait" ".5"
 "style" "4"
 }
-// entity 776
+// entity 775
 {
 "classname" "ambient_comp_hum"
 "origin" "608 3700 696"
 }
-// entity 777
+// entity 776
 {
 "classname" "light"
 "origin" "-824 3724 668"
-"light" "500"
+"light" "300"
 "delay" "2"
 "wait" "5"
 }
-// entity 778
+// entity 777
 {
 "classname" "light"
 "origin" "-784 3700 696"
@@ -33977,7 +33973,7 @@
 "delay" "5"
 "wait" ".5"
 }
-// entity 779
+// entity 778
 {
 "classname" "light"
 "origin" "-800 3628 808"
@@ -33985,14 +33981,80 @@
 "delay" "5"
 "wait" ".5"
 }
-// entity 780
+// entity 779
 {
 "classname" "light"
 "origin" "-808 2624 1416"
 "delay" "3"
 }
-// entity 781
+// entity 780
 {
 "classname" "light"
 "origin" "-480 3144 1000"
+"light" "50"
+"delay" "3"
+}
+// entity 781
+{
+"classname" "light"
+"origin" "-1084 3092 1000"
+"light" "50"
+"delay" "3"
+}
+// entity 782
+{
+"classname" "light"
+"origin" "-1252 3104 1000"
+"light" "50"
+"delay" "3"
+}
+// entity 783
+{
+"classname" "light"
+"origin" "-288 3112 1000"
+"light" "50"
+"delay" "3"
+}
+// entity 784
+{
+"classname" "light"
+"origin" "-460 2848 1000"
+"light" "50"
+"delay" "3"
+}
+// entity 785
+{
+"classname" "light"
+"origin" "-1028 2864 1000"
+"light" "50"
+"delay" "3"
+}
+// entity 786
+{
+"classname" "light"
+"origin" "616 3744 696"
+"light" "25"
+"delay" "5"
+"wait" ".5"
+"style" "9"
+}
+// entity 787
+{
+"classname" "light"
+"origin" "-796 3384 696"
+}
+// entity 788
+{
+"classname" "light"
+"origin" "648 3748 696"
+"light" "50"
+"delay" "5"
+"wait" ".5"
+"style" "9"
+}
+// entity 789
+{
+"classname" "info_player_start"
+"origin" "-256 -3568 -192"
+"angle" "300"
 }

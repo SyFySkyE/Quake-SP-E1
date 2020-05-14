@@ -25297,7 +25297,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Lava Trap"
-"_tb_id" "804"
+"_tb_id" "840"
 // brush 0
 {
 ( -1056 1016 80 ) ( -1056 896 88 ) ( -1056 896 80 ) *lavaskip 0 0 0 1 1
@@ -25312,7 +25312,7 @@
 {
 "classname" "trigger_teleport"
 "target" "tp1"
-"_tb_group" "804"
+"_tb_group" "840"
 // brush 0
 {
 ( -1056 1016 79 ) ( -1056 896 87 ) ( -1056 896 79 ) *lavaskip 0 0 0 1 1
@@ -32640,7 +32640,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Boss Pillars Top"
-"_tb_id" "805"
+"_tb_id" "841"
 // brush 0
 {
 ( -496 2272 1392 ) ( -496 2160 1024 ) ( -496 2272 1024 ) wl_metal13(s) 0 0 0 1 1
@@ -32791,7 +32791,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Boss Room Pillars mid"
-"_tb_id" "806"
+"_tb_id" "842"
 // brush 0
 {
 ( -496 2272 1392 ) ( -496 2160 1024 ) ( -496 2272 1024 ) altar1_8 0 0 0 1 1
@@ -33541,7 +33541,7 @@
 // entity 714
 {
 "classname" "info_player_start"
-"origin" "2128 280 696"
+"origin" "2288 1824 696"
 }
 // entity 715
 {
@@ -33560,40 +33560,72 @@
 "classname" "light_torch_small_walltorch"
 "origin" "2060 716 764"
 "wait" "2"
+"style" "0"
 }
 // entity 718
 {
 "classname" "light_torch_small_walltorch"
 "origin" "2164 716 764"
 "wait" "2"
+"style" "0"
 }
 // entity 719
 {
 "classname" "light_torch_small_walltorch"
 "origin" "2164 908 748"
 "wait" "2"
+"style" "0"
 }
 // entity 720
 {
 "classname" "light_torch_small_walltorch"
 "origin" "2060 908 748"
 "wait" "2"
+"style" "0"
 }
 // entity 721
 {
 "classname" "light_torch_small_walltorch"
 "origin" "2212 996 748"
 "wait" "2"
+"style" "0"
 }
 // entity 722
 {
 "classname" "light_torch_small_walltorch"
 "origin" "2300 1092 748"
 "wait" "2"
+"style" "0"
 }
 // entity 723
 {
 "classname" "light"
 "origin" "2392 1904 728"
 "delay" "5"
+}
+// entity 724
+{
+"classname" "light"
+"origin" "2376 1536 672"
+"light" "25"
+"delay" "3"
+}
+// entity 725
+{
+"classname" "light"
+"origin" "2384 1200 712"
+"light" "25"
+"delay" "3"
+}
+// entity 726
+{
+"classname" "light"
+"origin" "2376 2800 656"
+"light" "400"
+}
+// entity 727
+{
+"classname" "light"
+"origin" "1776 2816 656"
+"light" "400"
 }

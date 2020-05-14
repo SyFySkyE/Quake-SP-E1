@@ -2182,7 +2182,7 @@
 ( 472 128 504 ) ( 368 128 504 ) ( 368 128 512 ) 128_honey_3 0 0 0 1 1
 ( 368 128 512 ) ( 368 256 624 ) ( 472 256 624 ) 128_honey_3 -0 -0 0 1 1
 ( 472 256 616 ) ( 368 256 616 ) ( 368 128 504 ) wl_twood -0 -0 0 1 1
-( 472 256 624 ) ( 368 256 624 ) ( 368 256 616 ) 128_honey_3 0 0 0 1 1
+( 472 256 624 ) ( 368 256 624 ) ( 368 256 616 ) city2_2 0 0 0 1 1
 ( 472 256 616 ) ( 472 128 504 ) ( 472 128 512 ) 128_honey_3 0 0 0 1 1
 }
 // brush 242
@@ -25234,7 +25234,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Lava Trap"
-"_tb_id" "588"
+"_tb_id" "621"
 // brush 0
 {
 ( -1056 1016 80 ) ( -1056 896 88 ) ( -1056 896 80 ) *lavaskip 0 0 0 1 1
@@ -25249,7 +25249,7 @@
 {
 "classname" "trigger_teleport"
 "target" "tp1"
-"_tb_group" "588"
+"_tb_group" "621"
 // brush 0
 {
 ( -1056 1016 79 ) ( -1056 896 87 ) ( -1056 896 79 ) *lavaskip 0 0 0 1 1
@@ -32403,62 +32403,46 @@
 }
 // entity 607
 {
-"classname" "func_button"
-"target" "FinalGateCounter"
-"angle" "180"
-"health" "2"
-// brush 0
-{
-( -128 1432 712 ) ( -128 1352 656 ) ( -128 1432 656 ) __TB_empty 0 0 0 1 1
-( -72 1352 712 ) ( -128 1352 656 ) ( -128 1352 712 ) __TB_empty 0 0 0 1 1
-( -72 1352 656 ) ( -128 1432 656 ) ( -128 1352 656 ) __TB_empty 0 0 0 1 1
-( -72 1352 712 ) ( -128 1432 712 ) ( -72 1432 712 ) __TB_empty 0 0 0 1 1
-( -72 1432 656 ) ( -128 1432 712 ) ( -128 1432 656 ) __TB_empty 0 0 0 1 1
-( -72 1352 712 ) ( -72 1432 656 ) ( -72 1352 656 ) __TB_empty 0 0 0 1 1
-}
-}
-// entity 608
-{
 "classname" "item_armor1"
 "origin" "-1040 3000 752"
 }
-// entity 609
+// entity 608
 {
 "classname" "item_armor2"
 "origin" "-512 2760 832"
 }
-// entity 610
+// entity 609
 {
 "classname" "item_health"
 "origin" "-1064 2824 800"
 }
-// entity 611
+// entity 610
 {
 "classname" "item_health"
 "origin" "-352 2664 864"
 }
-// entity 612
+// entity 611
 {
 "classname" "item_health"
 "origin" "-1072 2576 896"
 }
-// entity 613
+// entity 612
 {
 "classname" "item_health"
 "origin" "-1216 2200 944"
 }
-// entity 614
+// entity 613
 {
 "classname" "item_armor2"
 "origin" "-320 2216 944"
 }
-// entity 615
+// entity 614
 {
 "classname" "info_teleport_destination"
 "origin" "440 2040 568"
 "angle" "90"
 }
-// entity 616
+// entity 615
 {
 "classname" "trigger_multiple"
 "message" "press F6 to save and F9 to load"
@@ -32474,7 +32458,7 @@
 ( -352 3672 704 ) ( -352 3776 512 ) ( -352 3672 512 ) 128_grey_3 0 0 0 1 1
 }
 }
-// entity 617
+// entity 616
 {
 "classname" "trigger_once"
 "message" "The time trial"
@@ -32488,7 +32472,7 @@
 ( 2440 1760 664 ) ( 2440 1768 552 ) ( 2440 1760 552 ) wl_brick2btm 0 0 0 1 1
 }
 }
-// entity 618
+// entity 617
 {
 "classname" "trigger_once"
 "message" "The maze trial"
@@ -32502,7 +32486,7 @@
 ( -1784 880 672 ) ( -1784 920 584 ) ( -1784 880 584 ) wl_brick2btm 0 0 0 1 1
 }
 }
-// entity 619
+// entity 618
 {
 "classname" "trigger_once"
 "message" "The agility trial"
@@ -32516,7 +32500,7 @@
 ( 840 744 24 ) ( 840 840 -64 ) ( 840 744 -64 ) wl_brick2btm 0 0 0 1 1
 }
 }
-// entity 620
+// entity 619
 {
 "classname" "trigger_teleport"
 "target" "AcidRoomCounter"
@@ -32531,7 +32515,7 @@
 ( 164 24 88 ) ( 164 152 80 ) ( 164 24 80 ) *waterskip 0 0 0 1 1
 }
 }
-// entity 621
+// entity 620
 {
 "classname" "func_train"
 "targetname" "WallRaise"
@@ -32555,7 +32539,7 @@
 ( -344 -1424 248 ) ( -344 -1168 552 ) ( -344 -1168 248 ) altar1_7 0 0 0 1 1
 }
 }
-// entity 622
+// entity 621
 {
 "classname" "func_train"
 "target" "WallDoorPathOne"
@@ -32588,12 +32572,12 @@
 ( -184 -1416 416 ) ( -232 -1416 352 ) ( -232 -1424 352 ) altar1_7 -28 -12 0 1 1
 }
 }
-// entity 623
+// entity 622
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Boss Pillars Top"
-"_tb_id" "589"
+"_tb_id" "622"
 // brush 0
 {
 ( -496 2272 1392 ) ( -496 2160 1024 ) ( -496 2272 1024 ) wl_metal13(s) 0 0 0 1 1
@@ -32739,12 +32723,12 @@
 ( -1000 2456 1392 ) ( -1000 2568 1024 ) ( -1000 2456 1024 ) wl_metal13(s) 0 0 0 1 1
 }
 }
-// entity 624
+// entity 623
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Boss Room Pillars mid"
-"_tb_id" "590"
+"_tb_id" "623"
 // brush 0
 {
 ( -496 2272 1392 ) ( -496 2160 1024 ) ( -496 2272 1024 ) altar1_8 0 0 0 1 1
@@ -32890,13 +32874,13 @@
 ( -1000 2456 1392 ) ( -1000 2568 1024 ) ( -1000 2456 1024 ) altar1_8 0 0 0 1 1
 }
 }
-// entity 625
+// entity 624
 {
 "classname" "info_player_start"
-"origin" "-160 -984 312"
+"origin" "184 360 560"
 "angle" "300"
 }
-// entity 626
+// entity 625
 {
 "classname" "light"
 "origin" "-96 -4040 -8"
@@ -32904,7 +32888,7 @@
 "light" "50"
 "wait" "3"
 }
-// entity 627
+// entity 626
 {
 "classname" "light"
 "origin" "-48 -3896 -46"
@@ -32913,7 +32897,7 @@
 "wait" "1"
 "delay" "3"
 }
-// entity 628
+// entity 627
 {
 "classname" "light"
 "origin" "-160 -2656 640"
@@ -32921,81 +32905,134 @@
 "wait" ".5"
 "delay" "3"
 }
-// entity 629
+// entity 628
 {
 "classname" "light"
 "origin" "-552 -1624 240"
 "delay" "3"
 }
-// entity 630
+// entity 629
 {
 "classname" "light"
 "origin" "176 -1624 240"
 "delay" "3"
 }
-// entity 631
+// entity 630
 {
 "classname" "light"
 "origin" "-128 -520 392"
 "wait" "5"
 "light" "500"
 }
-// entity 632
+// entity 631
 {
 "classname" "light"
 "origin" "480 -704 392"
 "wait" "5"
 "light" "500"
 }
+// entity 632
+{
+"classname" "light_flame_large_yellow"
+"origin" "312 -520 348"
+"wait" "2"
+"delay" "5"
+"style" "10"
+}
 // entity 633
 {
 "classname" "light_flame_large_yellow"
-"origin" "312 -520 372"
-"wait" "3"
+"origin" "-48 -520 348"
+"wait" "2"
 "delay" "5"
+"style" "10"
 }
 // entity 634
 {
 "classname" "light_flame_large_yellow"
-"origin" "-48 -520 372"
-"wait" "3"
+"origin" "-48 -856 348"
+"wait" "2"
 "delay" "5"
+"style" "10"
 }
 // entity 635
 {
 "classname" "light_flame_large_yellow"
-"origin" "-48 -856 372"
-"wait" "3"
+"origin" "312 -856 348"
+"wait" "2"
 "delay" "5"
+"style" "10"
 }
 // entity 636
-{
-"classname" "light_flame_large_yellow"
-"origin" "312 -856 372"
-"wait" "3"
-"delay" "5"
-}
-// entity 637
-{
-"classname" "light"
-"origin" "1112 816 2008"
-"delay" "3"
-}
-// entity 638
-{
-"classname" "light"
-"origin" "-296 816 2008"
-"delay" "5"
-"wait" "3"
-}
-// entity 639
 {
 "classname" "light"
 "origin" "416 264 584"
 "delay" "3"
 }
-// entity 640
+// entity 637
 {
 "classname" "light"
 "origin" "424 -176 464"
+"style" "10"
+}
+// entity 638
+{
+"classname" "light"
+"origin" "424 -272 408"
+"style" "10"
+"wait" "2"
+}
+// entity 639
+{
+"classname" "light"
+"origin" "424 -336 368"
+"style" "10"
+"wait" "2"
+}
+// entity 640
+{
+"classname" "light_flame_large_yellow"
+"origin" "312 -856 348"
+"wait" "2"
+"delay" "5"
+"style" "5"
+}
+// entity 641
+{
+"classname" "light_flame_large_yellow"
+"origin" "-48 -856 348"
+"wait" "2"
+"delay" "5"
+"style" "5"
+}
+// entity 642
+{
+"classname" "light_flame_large_yellow"
+"origin" "-48 -520 348"
+"wait" "2"
+"delay" "5"
+"style" "5"
+}
+// entity 643
+{
+"classname" "light_flame_large_yellow"
+"origin" "312 -520 348"
+"wait" "2"
+"delay" "5"
+"style" "5"
+}
+// entity 644
+{
+"classname" "light"
+"origin" "424 -440 368"
+"style" "10"
+"wait" "2"
+}
+// entity 645
+{
+"classname" "light"
+"origin" "400 1264 1120"
+"delay" "5"
+"wait" "3"
+"light" "300"
 }
