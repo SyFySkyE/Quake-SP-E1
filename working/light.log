@@ -11,21 +11,22 @@ WARNING: entity at (-96 744 736) (info_teleport_destination) has targetname "Mai
 WARNING: entity at (656 312 736) (info_teleport_destination) has targetname "MainHubTopSouthSpawnOne" which is not targetted by anything.
 WARNING: entity at (928 632 736) (info_teleport_destination) has targetname "MainHubTopSpawnEastTwo" which is not targetted by anything.
 WARNING: brush entity with mins (-143.00 937.00 705.) maxs (-137.00 1111.00 895) (func_train) has targetname "PuzzleGateClose" which is not targetted by anything.
-623 entities read, 0 are lights.
+787 entities read, 163 are lights.
 --- OptionsSummary ---
     "bounce" was set to "1" from commandline
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
-	1467 sky faces
-	8406 solid faces
+	1454 sky faces
+	8430 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
-SetupLights: 0 initial lights
-SetupLights: 0 after surface lights
-SetupLights: 0 after jittering
+SetupLights: 163 initial lights
+SetupLights: 163 after surface lights
+SetupLights: 163 after jittering
+WARNING: couldn't nudge light in solid at -920.000000 1036.000000 696.000000
 --- EstimateLightVisibility ---
-
-Final count: 0 lights 0 suns in use.
+0....1....2....3....4....5....6....7....8....9....
+Final count: 163 lights 0 suns in use.
 --- LightWorld ---
 --- MakeTextureColors ---
 --- MakeBounceLights ---
@@ -33,12 +34,12 @@ Final count: 0 lights 0 suns in use.
 0....1....2....3....4....5....6....7....8....9....
 Lighting Completed.
 
-lightdatasize: 0
-0 switchable light styles (32 max)
+lightdatasize: 527513
+1 switchable light styles (32 max)
 Writing EpisodeOne.bsp as BSP version 29
-2.144 seconds elapsed
+22.526 seconds elapsed
 
 stats:
-0.000000 lights tested, 0.000000 hits per sample point
-0.000000 bounce lights tested, 0.000000 hits per sample point
+6.596531 lights tested, 1.273925 hits per sample point
+49.492414 bounce lights tested, 27.278648 hits per sample point
 0 empty lightmaps

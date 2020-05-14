@@ -4,11 +4,11 @@ Output file: EpisodeOne.bsp
 
 ---- LoadMapFile ----
 *** WARNING 06: No info_player_deathmatch entities in level
-        19564 faces
-         3099 brushes
-          626 entities
-          238 unique texnames
-          896 texinfo
+        19600 faces
+         3105 brushes
+          790 entities
+          239 unique texnames
+          900 texinfo
 
 Opened WAD: ../wads/prototype_1_2.wad
 Opened WAD: ../wads/START.WAD
@@ -16,49 +16,49 @@ Opened WAD: ../../quake-leveldesign-starterkit-master/wads/SiN.wad
 Opened WAD: ../../quake-leveldesign-starterkit-master/wads/QUAKE101.WAD
 Processing hull 0...
 ---- Brush_LoadEntity ----
-         2628 brushes
-         2142 planes
+         2635 brushes
+         2145 planes
 ---- CSGFaces ----
-        16384 brushfaces
-        13389 csgfaces
-        10700 mergedfaces
+        16426 brushfaces
+        13411 csgfaces
+        10698 mergedfaces
 ---- SolidBSP ----
-        11174 split nodes
-         3732 solid leafs
-         6595 empty leafs
-          848 water leafs
+        11184 split nodes
+         3741 solid leafs
+         6600 empty leafs
+          844 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-        27402 leaffaces
-        23297 nodefaces
+        27414 leaffaces
+        23308 nodefaces
 ---- Portalize ----
-         7443 vis leafs
-         7443 vis clusters
-        23432 vis portals
+         7444 vis leafs
+         7444 vis clusters
+        23433 vis portals
 ---- FillOutside ----
-         3500 outleafs
+         3501 outleafs
 ---- MergeAll ----
-         7774 mergefaces
+         7773 mergefaces
 ---- SolidBSP ----
-         4153 split nodes
-         1687 solid leafs
-         1984 empty leafs
-          483 water leafs
+         4154 split nodes
+         1691 solid leafs
+         1989 empty leafs
+          475 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-        14471 leaffaces
-        10471 nodefaces
+        14484 leaffaces
+        10472 nodefaces
 ---- Portalize ----
-         2467 vis leafs
-         2467 vis clusters
-         6691 vis portals
+         2464 vis leafs
+         2464 vis clusters
+         6687 vis portals
 ---- Tjunc ----
-         8546 world edges
-        30588 edge points
+         8562 world edges
+        30644 edge points
          8704 edges added by tjunctions
             0 faces added by tjunctions
 ---- MakeFaceEdges ----
@@ -68,20 +68,20 @@ Processing hull 2...
 *** WARNING 16: Texture __TB_empty not found
 ---- WriteBSPFile ----
 Wrote EpisodeOne.bsp
-         4438 planes            88760
-        16370 vertexes         196440
-         6490 nodes            155760
-          611 texinfo           24440
-        13923 faces            278460
-        10194 clipnodes         81552
-         4535 leafs            126980
-        17928 marksurfaces      35856
-        64278 surfedges        257112
-        33079 edges            132316
-          246 textures        2012136
+         4448 planes            88960
+        16382 vertexes         196584
+         6485 nodes            155640
+          615 texinfo           24600
+        13918 faces            278360
+        10234 clipnodes         81872
+         4526 leafs            126728
+        17935 marksurfaces      35870
+        64258 surfedges        257032
+        33069 edges            132276
+          247 textures        2017620
               lightdata             0
               visdata               0
-              entdata           63096
+              entdata           75861
 
-3.083 seconds elapsed
-Peak memory usage: 103666288 (98.9M)
+2.923 seconds elapsed
+Peak memory usage: 103858650 (99.0M)
